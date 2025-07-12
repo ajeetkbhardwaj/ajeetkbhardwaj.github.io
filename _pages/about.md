@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-An applied mathematician
-master in mathematics and computing
-bachelors in applied mathematics
+> I am currently a Research Intern at the Cloud Computing Lab and HIPC Lab, IIT Delhi, where I focus on building and evaluating LLM-based tools that automatically generate OpenAPI specifications from source API code. 
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+> Before joining IIT Delhi, I completed my M.Sc in Mathematics and Computing at Banaras Hindu University Varanasi, working in the DST-CIMS, where my master’s thesis focused on Discrete Differential Geometry and It's Applications. My academic journey began with a B.Sc(Hons) in Applied Mathematics from Jamia Millia Islamia (A Central University), New Delhi. 
+
+
 
 A data-driven personal website
 ======
