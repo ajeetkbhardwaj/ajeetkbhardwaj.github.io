@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-About me
-======
-I am currently a Research Intern at the **Cloud Computing Lab and HIPC Lab IIT Delhi**, where I focus on building and evaluating **LLM-based tools** that *automatically generate OpenAPI specifications from source API code*. Before joining IIT Delhi, I completed my **M.Sc in Mathematics and Computing at Banaras Hindu University Varanasi**, working in the DST-CIMS, where my **Master's Thesis** focused on **Discrete Differential Geometry and It's Applications**. My academic journey began with a **B.Sc(Hons) in Applied Mathematics from Jamia Millia Islamia, New Delhi**. 
+Currently a Research Intern at the **Cloud Computing Lab and HIPC Lab IIT Delhi**, where I focus on building and evaluating **LLM-based tools that automatically generate OpenAPI specifications from source API code**. Before joining IIT Delhi, I completed my **M.Sc in Mathematics and Computing at Banaras Hindu University Varanasi**, working in the DST-CIMS, where my **Master's Thesis** focused on **Discrete Differential Geometry and It's Applications**. My academic journey began with a **B.Sc(Hons) in Applied Mathematics from Jamia Millia Islamia, New Delhi**. 
+
+Research Interests in Discrete Differential Geometry and It's Applications, Model Complex Systems and Simulations, Data Science and Machine Learning
 
 
 
