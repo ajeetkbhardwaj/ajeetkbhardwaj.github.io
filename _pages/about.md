@@ -22,21 +22,18 @@ I’m deeply fascinated by how mathematical models and machine learning tools ca
 
 ---
 Research Experiances
-===
-
-0. Research Inter (IIT Dehli)
 =====
+
+#### 0. Research Inter (IIT Dehli)
 *Cloud Computing and HIPC Lab*
 
 - LLM + OpenAPI Specification
 
-1. Quantum Research Intern (QWorld)
-=====
+#### 1. Quantum Research Intern (QWorld)
 *Online*
 - Simulation of Wave Equation using Quantum Algorithms
 
-2. Machine Learning Intern (Devtern)
-=====
+#### 2. Machine Learning Intern (Devtern)
 *Online*
 - Machine Learning projects
 
