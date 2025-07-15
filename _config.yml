@@ -63,7 +63,7 @@ author:
   lastfm           : # Username
   linkedin         : "ajeetkumar09"
   mastodon         : # URL
-  medium           : "@ajeetskbp9843"
+  medium           : "https://medium.com/@ajeetskbp9843"
   pinterest        : # Username
   soundcloud       : # Username
   steam            : # Username
@@ -74,7 +74,7 @@ author:
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : "@Mathelates" # Username
+  youtube          : "Mathelates" # Username
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
