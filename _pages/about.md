@@ -33,11 +33,37 @@ Research Experiances
 
 ## 1. Quantum Research Intern (QWorld)
 *Online*
-- Simulation of Wave Equation using Quantum Algorithms
+- Implemented the HHL algorithm using Qiskit to solve partial differential equations (PDEs), focusing on the Wave Equation.
+- Designed and executed quantum circuits on both simulators and IBM Quantum hardware, scaling computations up to 50+ qubits.
+- Explored advanced quantum algorithms such as Variational Quantum Algorithms (VQA), and Shor's Algorithm etc.
 
 ## 2. Machine Learning Intern (Devtern)
 *Online*
-- Machine Learning projects
+- Developed accurate ML models using Logistic Regression and Decision Trees for Heart Disease Prediction and House Price Estimation, achieving over 90% accuracy.
+- Built end-to-end ML pipelines, incorporating model design, training, optimization, and deployment via API development.
+- Performed data preprocessing, including cleaning, feature transformation, and exploratory data analysis (EDA) to uncover insights from complex datasets.
+- Applied techniques such as feature engineering, hyperparameter tuning, and model evaluation to enhance performance and interpretability of solutions.
+
+
 
 ---
 
+Skills
+=====
+- **Programming :** Python, C/C++, MATLAB, Julia, Qiskit, Pennylane.
+- **Tools and Frameworks :** PyTorch, FastAPI, MLFlow, PDEToolBox
+- **Artificial Intelligence :** Building, Training, Evaluating and Deplyment of Models and LLMs based Tools and Function Workflow Design.
+- **Data Driven Decision Making :** Statistical methods, Optimization methods, machine learning methods and deep learning methods.
+- **Soft Skills:**
+
+
+
+
+
+Languages
+=====
+0. Mother toung - Awadhi + Bhojpuri
+1. Hindi
+2. English
+3. Sanskrit
+4. Urdu
