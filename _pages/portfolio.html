@@ -4,11 +4,26 @@ title: "Portfolio"
 permalink: /portfolio/
 author_profile: true
 ---
+<style>
+  .portfolio-category {
+  margin-bottom: 2rem;
+}
 
+.portfolio-category h2 {
+  font-size: 1.5rem;
+  color: #dd408f;
+}
+</style>
 {% include base_path %}
 
+{% assign categories = site.portfolio | group_by: "category" %}
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
+{% for category in categories %}
+  <h2>{{ category.name }}</h2>
+  <div class="portfolio-category">
+    {% for post in category.items %}
+      {% include archive-single.html %}
+    {% endfor %}
+  </div>
 {% endfor %}
 

@@ -1,8 +1,9 @@
 ---
 title: "Disease Detection Web Application"
-excerpt: "The Disease Detection Web Application, developed in 2022, is a machine learning-powered platform designed to assist in the early detection of diseases, with a focus on accessibility and efficiency. <br/><img src='/images/project-0.jpeg' style='width:300px; height:auto;'>"
+excerpt: "The Disease Detection Web Application, developed in 2022, is a machine learning-powered platform designed to assist in the early detection of diseases. <br/><img src='/images/project-0.jpeg' style='width:500px; height:auto;'>"
 collection: portfolio
 url: https://github.com/ajeetkbhardwaj/Covid-19-Detection-Web-Application
+category: "Computer Vision"
 ---
 The Disease Detection Web Application, developed in 2022, is a machine learning-powered platform designed to assist in the early detection of diseases, with a focus on accessibility and efficiency. This project leverages advanced deep learning techniques to analyze medical data, such as X-ray images, and provide accurate diagnostic predictions. Built using Python and Flask for the backend, and HTML/CSS/JavaScript for the frontend, the application integrates seamlessly with user inputs to deliver results in real-time.
 
