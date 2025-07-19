@@ -12,9 +12,9 @@ I am currently a Research Intern at the Cloud Computing Lab and HIPC Lab, IIT De
 Before joining IIT Delhi, I completed my M.Sc in Mathematics and Computing at Banaras Hindu University (BHU), Varanasi, where I worked at the DST-CIMS. My Master’s thesis was centered around [Discrete Differential Geometry and its Applications](master-thesis.pdf), supervised by [Prof. Bankteshwar Tiwari](https://www.bhu.ac.in/Site/FacultyProfile/45_233?FA000189).
 
 
-My academic journey began with a B.Sc (Hons) in Applied Mathematics from Jamia Millia Islamia, New Delhi. Along the way, I also pursued a **[Data Science Specialization](https://gist.github.com/ajeetkbhardwaj/136fa8181ce1e21ab91747a752bf4eb5)** through NPTEL (IIT Madras), strengthening my skills in **Programming, Data Analytics, Machine Learning and Large Language Models**.
+My academic journey began with a B.Sc (Hons) in Applied Mathematics from Jamia Millia Islamia, New Delhi. Along the way, I also pursued a **[Data Science Specialization](https://gist.github.com/ajeetkbhardwaj/136fa8181ce1e21ab91747a752bf4eb5)** through NPTEL (IIT Madras), strengthen my skills in **Programming, Data Analytics, Machine Learning and Large Language Models**.
 
-My research interests lie at the intersection of:
+My research interests lie at the intersection of
 - Discrete Differential Geometry and its Applications
 - Modeling Complex Systems and Simulations
 - Data Science and Machine Learning
@@ -60,9 +60,10 @@ Skills
 - **Artificial Intelligence :** Building, Training, Evaluating and Deplyment of Models and LLMs based Tools and Functional Workflow Design.
 - **Data Driven Decision Making :** Statistical methods, Optimization methods, machine learning methods and deep learning methods.
 - **Soft Skills:** : Problem Solving, Collaborative, Analytical Thinking and Communication.
-- **Mathematical Methods** : Optimization, Mathematical Modelling of Complex Systems and Scientific Simulations
+- **Mathematical Methods** : Optimization, Mathematical Modelling of Complex Systems and Scientific Simulations and many more...
 
 ----
+
 [Certificates & Key Cources](https://gist.github.com/ajeetkbhardwaj/bd49f3589dfbb076fb21b3e0eab25db7)
 =====
 0. **Mathematics**
