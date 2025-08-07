@@ -1,3 +1,14 @@
+---
+title: 'MLOps for LLMs'
+date: 2025-08-07
+permalink: /posts/2025/08/blog-post-2/
+tags:
+  - MLOps
+  - LLMs
+  - Production
+---
+
+
 # MLOps for LLMs
 
 Introduction to operations for Large Language Models(LLMs) also called as MLOps for LLMs.
