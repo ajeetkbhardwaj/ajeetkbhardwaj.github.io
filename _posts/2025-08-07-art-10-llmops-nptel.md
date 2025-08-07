@@ -7,8 +7,6 @@ tags:
   - LLMs
   - Production
 ---
-# MLOps for LLMs
-
 Introduction to operations for Large Language Models(LLMs) also called as MLOps for LLMs.
 
 **Objectives**
