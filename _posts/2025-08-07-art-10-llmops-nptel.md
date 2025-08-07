@@ -7,8 +7,6 @@ tags:
   - LLMs
   - Production
 ---
-
-
 # MLOps for LLMs
 
 Introduction to operations for Large Language Models(LLMs) also called as MLOps for LLMs.
@@ -325,16 +323,18 @@ how these different information sources are integrated into the system:
 In conclusion that building a system with an LLM agent requires integrating all these components like a regular software system.
 
 ### Building Fine-tuned model
+
 1. Data processing - data and it's format is right.
 2. LLM
-3. CI/CD aspect of both pre-training and finetuning 
-4. After in Production, The usage of LLM in Inferencing 
+3. CI/CD aspect of both pre-training and finetuning
+4. After in Production, The usage of LLM in Inferencing
 5. Considering all the aspects of the running LLM in production
-Building a fine-tuned model and focusing on data processing to ensure quality and proper formatting for LLM architectures
+   Building a fine-tuned model and focusing on data processing to ensure quality and proper formatting for LLM architectures
 
-CI/CD (Continuous Integration/Continuous Deployment) aspects for LLMs, specifically the patterns related to pre-training and fine-tuning before an LLM is deployed for inferencing 
+CI/CD (Continuous Integration/Continuous Deployment) aspects for LLMs, specifically the patterns related to pre-training and fine-tuning before an LLM is deployed for inferencing
 
-### LLM in Production : Measuring LLM Accuracy 
+### LLM in Production : Measuring LLM Accuracy
+
 What are the best practices and emerging topics in the field
 ![1754471309292](image/art-10-llmops-nptel/1754471309292.png)
 
@@ -353,10 +353,11 @@ Human Evaluation: A human reviews the LLM's output to verify if it meets expecta
 LLM as a Judge: Other LLMs can be used to evaluate and critique the output of the current model.
 
 #### LM Evaluation Harness
+
 ![1754471424535](image/art-10-llmops-nptel/1754471424535.png)
 
-
 #### Imporving Fine-tuned LLM Accuracy
+
 ![1754471927233](image/art-10-llmops-nptel/1754471927233.png)
 
 Improving LLM Accuracy
@@ -375,7 +376,9 @@ Prompt engineering: This involves using well-structured prompts. The speaker wil
 Lookups from RAG documents: Using Retrieval-Augmented Generation (RAG) to fetch information from known, factually correct sources. The LLM uses this information in its context window to provide accurate answers, thereby controlling hallucinations and improving overall accuracy.
 
 Verification layers: Adding separate layers or APIs that check an LLM's response for compliance with factual accuracy or security policies. The speaker will elaborate on this in a subsequent section.
+
 #### Prompt Engineering
+
 ![1754472548116](image/art-10-llmops-nptel/1754472548116.png)
 
 Prompt engineering, a method for improving LLM accuracy by treating prompts with the same seriousness as code.
@@ -388,23 +391,25 @@ To manage and control prompts effectively, the video suggests using prompt templ
 
 DSPy as an open-source project that provides a Domain-Specific Language (DSL) for prompts. This framework aims to add structure to prompts without sacrificing their natural language feel, allowing for better optimization and control
 
-Declarative - What needed to be done 
-Procedural - How needed to be done 
+Declarative - What needed to be done
+Procedural - How needed to be done
 
 Once the prompt is defined using these structures then it can organize those structure for the prompt in such a way that it is optimized prompt.
 
-#### Verification Layer 
+#### Verification Layer
+
 ![1754473308577](image/art-10-llmops-nptel/1754473308577.png)
 **Verification Layers**
 Purpose: The verification layers as a method to improve LLM accuracy. This is a separate layer that takes the LLM's response and checks it for compliance with factual accuracy or security policies. This layer can act as an API that invokes the LLM, processes the response, and then provides a verified output.
 
 Methods of Verification: There are several methods for verification, including:
+
 1. RAG Lookup: Performing a lookup against Retrieval-Augmented Generation (RAG) documents to ensure the LLM's response is factually correct.
-
 2. Critique LLM: Using a second, more powerful LLM to critique the response of the primary LLM for factual inconsistencies.
-
 3. Static Rules: Using static rules to check the format or output of the LLM's response.
 
-An example of a critique LLM is given, where a verifier LLM checks a primary LLM's answer against an original PDF to verify its factual accuracy 
+An example of a critique LLM is given, where a verifier LLM checks a primary LLM's answer against an original PDF to verify its factual accuracy
+
 #### Example - usage of critique LLMs
+
 ![1754473341297](image/art-10-llmops-nptel/1754473341297.png)
