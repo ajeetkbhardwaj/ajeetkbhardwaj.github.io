@@ -29,8 +29,6 @@ What will make a manager **look to you** in times of crisis:
   * Use your tools to  **solve real business problems** , not just academic ones.
   * E.g., can you reduce churn? Optimize pricing? Forecast risks?
 
-
-
 🧭 Final Thought
 
 > If you want to be  *indispensable* —not just  *employed* —train your mind to ask:
@@ -38,9 +36,8 @@ What will make a manager **look to you** in times of crisis:
 > **“How does this create value for the business?”**
 >
 > Not just “How do I build it?”
->
-
 
 ## References
+
 [1]. https://interviewkickstart.com/blogs/career-advice/situational-scenario-based-interview-questions-answers
-[2]. 
+[2].

@@ -7,6 +7,19 @@ tags:
   - Job
   - Nature
 ---
+
+Machine Learning Systems
+
+# Table of Contents
+
+
+
+## 1. General ML Question
+Quest-1. What is Machine Learning ?
+<details>
+<summary>Answer!</summary>
+ML is a subfield of AI,
+</details>
 What is Modern System Design(Large Scale) ?
 
 ##### 1. Online Processing Systems
@@ -22,3 +35,10 @@ Example : Web applications (clients are browsers; servers host content).
 5. **Define Data Models & APIs** .
 6. **Identify Bottlenecks & Edge Cases** .
 7. **Review for Trade-offs** : Performance vs. reliability, cost, etc.
+
+
+
+## Resources and References
+
+[1]. [How to Prepare for Machine Learning Interview by Udacity](https://www.udacity.com/blog/2016/05/prepare-machine-learning-interview.html)
+[2]. 
