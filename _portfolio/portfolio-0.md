@@ -1,12 +1,32 @@
 ---
-title: "Disease Detection Web Application"
-excerpt: "The Disease Detection Web Application, developed in 2022, is a machine learning-powered platform designed to assist in the early detection of diseases. <br/><img src='/images/project-0.jpeg' style='width:500px; height:auto;'>"
+title: "Lean4Agent: Multi-Agent AI System for Solving Mathematical Problems"
+excerpt: "Lean4Agent is a collaborative AI system designed to tackle complex mathematical problems using multiple intelligent agents.<br/><img src='/images/portfolio/Lean4AgentArchs.png' alt='Lean4Agent Architecture'/>"
 collection: portfolio
-url: https://github.com/ajeetkbhardwaj/Covid-19-Detection-Web-Application
-category: "Computer Vision"
+url: "https://github.com/ajeetkbhardwaj/Lean4Agent/tree/main"
+category: "AI Systems"
 ---
-The Disease Detection Web Application, developed in 2022, is a machine learning-powered platform designed to assist in the early detection of diseases, with a focus on accessibility and efficiency. This project leverages advanced deep learning techniques to analyze medical data, such as X-ray images, and provide accurate diagnostic predictions. Built using Python and Flask for the backend, and HTML/CSS/JavaScript for the frontend, the application integrates seamlessly with user inputs to deliver results in real-time.
+**Abstract**
+> *Lean4Agent is an innovative multi-agent AI system designed to automate the process of solving mathematical problems by translating natural language descriptions into formal proofs using the Lean4 theorem prover. By orchestrating specialized agents for task instigation, planning, code generation, verification, and feedback, Lean4Agent enables seamless collaboration between humans and machines in mathematical reasoning. This approach not only accelerates the formalization and verification of complex mathematical tasks but also ensures correctness and reliability, unlocking new possibilities for large-scale collaborative mathematics.*
 
-The application employs convolutional neural networks (CNNs) for image-based disease detection, ensuring high accuracy and reliability. It was specifically designed during the COVID-19 pandemic to aid in the detection of COVID-19 from chest X-rays, addressing the urgent need for scalable diagnostic tools. The project demonstrates the potential of AI in healthcare by offering a cost-effective and user-friendly solution for disease diagnosis.
+**Introduction**
+Mathematics is fundamental to human understanding, enabling us to describe, predict, and shape the natural world. As the root of intelligence, mathematics demands reasoning, abstraction, and the ability to see underlying beauty and structure. Traditionally, formalizing mathematics—from natural language to symbolic proofs—has been a labor-intensive process, often limited by human capacity for verification and collaboration.
 
-Looking ahead, the application can be expanded to detect a broader range of diseases, integrate with electronic health records, and improve diagnostic accuracy with larger datasets.
+With the advent of computer-assisted proof systems like Lean4, it is now possible to formalize mathematical knowledge in code, ensuring perfect verification and eliminating concerns about correctness. However, bridging the gap between informal problem statements and formal proofs remains a significant challenge.
+
+Lean4Agent is a try to addresses this challenge by introducing a multi-agent workflow that automates the journey from natural language problem statements to verified Lean4 proofs. By leveraging specialized agents for planning, code generation, verification, and feedback, Lean4Agent streamlines the formalization process, enabling scalable and trustworthy mathematical collaboration.
+
+**Architecture Description**
+![txt](/images/portfolio/Lean4AgentArchs.png)
+Lean4Agent’s architecture is composed of three core agents, each responsible for a distinct stage in the mathematical problem-solving pipeline:
+1. Task Instigation
+Reads the input problem in natural language and prepares a structured prompt for the planning agent.
+2. Planning Agent
+Generates a step-by-step plan for solving and proving the task, using the problem description and predefined templates.
+3. Generation Agent
+Produces Lean4 code, including theorem statements and proofs, by filling in the required sections of the Lean template based on the plan and task description.
+4. Verification
+Compiles and checks the generated Lean4 code. If the Lean4 compiler reports errors or proof failures, the agent captures the error messages.
+5. Feedback Agent
+Analyzes errors and suggests corrections, iteratively refining the solution until it passes verification or a retry limit is reached.
+
+This modular, agent-based workflow try to ensures that each stage of the formalization process is handled efficiently and accurately, enabling Lean4Agent to tackle complex mathematical problems with minimal human intervention and maximal reliability. But tt has many limitations due to llms itself.
