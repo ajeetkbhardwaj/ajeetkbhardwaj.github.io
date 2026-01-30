@@ -1,6 +1,6 @@
 ---
 title: 'Notebook : Chanakya(Kautilya) Niti Sutra'
-date: 2025-11-02
+date: 2026-01-30
 permalink: /posts/2026/01/post-1/Notebook-Chanakya-Kautilya-Niti-Sutra
 tags:
   - Decision Making
@@ -9,13 +9,11 @@ tags:
   - Intelligence
 ---
 
-<h1 align="center">Notebook : Chanakya(Kautilya) Niti Sutra</h1>
-
 > *"Establish yourself in Self-Control, plan with Secrecy, act with Courage, and let Truth be your final destination."* --- Ajeet Kumar
 
 The chanakya niti sutras are the masterclass in strategic thinking, ethics and practical wisdom.
 
-[📄 Download the PDF](./files/Notebook-ChanakyaNitiSutras.pdf)
+[📄 Download the PDF](../files/Notebook-ChanakyaNitiSutras.pdf)
 
 ## Table of Contents
 
