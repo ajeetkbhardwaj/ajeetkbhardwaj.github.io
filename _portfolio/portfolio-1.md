@@ -1,6 +1,6 @@
 ---
 title: "Vision Transformer(ViT) from Scratch - Solving Partial Differential Equations(PDE)"
-excerpt: "Mathematical Data Driven Methods for Modelling and Simulations of Science and Engineering Problems, mostly modeled as partial differential equation therefore how to solve them for performing simulation of the system. I have trained ViT model onto the Allen Cahn PDE to dataset and checked the model predicted solution for the unseen input dataset. results are close to exact solution.<br/><img src='/images/portfolio/ViTforPDE-AllenCahn.png'>"
+excerpt: "Mathematical Data Driven Methods for Modelling and Simulations of Science and Engineering Problems, mostly modeled as partial differential equation therefore how to solve them for performing simulation of the system. I have trained ViT model onto the Allen Cahn PDE to dataset and checked the model predicted solution for the unseen input dataset. results are close to exact solution.<br/><a href='https://github.com/ajeetkbhardwaj/Modelling-Complex-Systems/tree/main/ViTforPDE'><img src='/images/portfolio/ViTforPDE-AllenCahn.png'></a>"
 collection: portfolio
 url: https://github.com/ajeetkbhardwaj/Modelling-Complex-Systems/tree/main/ViTforPDE
 category: "Mathematical Data Driven Methods"
