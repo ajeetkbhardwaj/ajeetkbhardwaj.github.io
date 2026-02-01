@@ -1,12 +1,15 @@
 ---
-title: 'Model Context Protocol(MCP) - '
+title: 'AI for Engineers'
 date: 2025-08-09
-permalink: /posts/2025/08/09/khiladi-1/
+permalink: /posts/2025/08/09/ai-for-engineers/
 tags:
   - Game
   - Job
   - Nature
 ---
+[![Project Screen Cap](/images/blogs/ai-for-engineers/ai-for-engineers.jpeg "Click to view on GitHub")](https://github.com/ajeetkbhardwaj/AI-for-Engineers)
+
+
 **Abstract**
 We are going to study
 1. Model Context Protocol - Theory, Design and Practices
