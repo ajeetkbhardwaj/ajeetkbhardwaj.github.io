@@ -49,13 +49,16 @@ My academic journey began with a B.Sc (Hons) in Applied Mathematics from Jamia M
 
 <h2>projects</h2>
 <style>
+  .project-excerpt {
+    overflow: hidden; /* Clearfix for floated images */
+  }
   .project-excerpt img {
-    max-width: 100%;
+    float: right;
+    max-width: 40%; /* Constrains image width to leave room for text */
     height: auto;
-    max-height: 250px; /* Constrains image height so they aren't overwhelming */
+    max-height: 200px;
     border-radius: 6px;
-    margin-top: 10px;
-    display: block;
+    margin: 5px 0 10px 15px;
   }
 </style>
 <div class="table-responsive">
