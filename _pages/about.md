@@ -16,8 +16,6 @@ My academic journey began with a B.Sc (Hons) in Applied Mathematics from Jamia M
 <div style="clear: both;"></div>
 
 <br>
-
-
 <h2>latest posts</h2>
 <!-- This liquid loop automatically fetches your latest 5 posts from your _posts folder -->
 <div class="table-responsive">
@@ -48,6 +46,36 @@ My academic journey began with a B.Sc (Hons) in Applied Mathematics from Jamia M
     </tr>
   </table>
 </div>
+
+<h2>projects</h2>
+<style>
+  .project-excerpt img {
+    max-width: 100%;
+    height: auto;
+    max-height: 250px; /* Constrains image height so they aren't overwhelming */
+    border-radius: 6px;
+    margin-top: 10px;
+    display: block;
+  }
+</style>
+<div class="table-responsive">
+  <table style="width: 100%; border-collapse: collapse; border: none;">
+    {% for project in site.portfolio %}
+    <tr style="border-bottom: 1px solid #eee;">
+      <td style="width: 10%; padding: 12px 0; vertical-align: top;">
+        <span style="background-color: #28a745; color: white; padding: 3px 6px; border-radius: 4px; font-size: 0.8em; font-weight: bold;">PROJ</span>
+      </td>
+      <td style="padding: 12px 0;">
+        <strong><a href="{{ project.url }}">{{ project.title }}</a></strong><br>
+        <div class="project-excerpt" style="font-size: 0.9em; color: #555; margin-top: 8px;">
+          {{ project.excerpt | markdownify }}
+        </div>
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+
 
 <h2>publications</h2>
 <!-- In your current theme, publications are usually stored in the _publications folder. 
