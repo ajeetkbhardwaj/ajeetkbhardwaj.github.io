@@ -71,7 +71,7 @@ My academic journey began with a B.Sc (Hons) in Applied Mathematics from Jamia M
 </style>
 <div class="table-responsive">
   <table style="width: 100%; border-collapse: collapse; border: none;">
-    {% for project in site.portfolio %}
+    {% for project in site.portfolio limit:5%}
     <tr style="border-bottom: 1px solid #eee;">
       <td style="width: 12%; padding: 12px 0; vertical-align: top;">
         <span style="background-color: #28a745; color: white; padding: 3px 6px; border-radius: 4px; font-size: 0.8em; font-weight: bold;">PROJ</span>
