@@ -49,28 +49,41 @@ My academic journey began with a B.Sc (Hons) in Applied Mathematics from Jamia M
 
 <h2>projects</h2>
 <style>
-  .project-excerpt {
-    overflow: hidden; /* Clearfix for floated images */
+  .project-text-only img, 
+  .project-text-only br {
+    display: none !important;
   }
-  .project-excerpt img {
-    float: right;
-    max-width: 40%; /* Constrains image width to leave room for text */
+  .project-img-only {
+    font-size: 0;
+    color: transparent;
+    line-height: 0;
+    text-align: right;
+  }
+  .project-img-only p {
+    margin: 0;
+  }
+  .project-img-only img {
+    max-width: 100%;
     height: auto;
-    max-height: 200px;
+    max-height: 150px;
     border-radius: 6px;
-    margin: 5px 0 10px 15px;
   }
 </style>
 <div class="table-responsive">
   <table style="width: 100%; border-collapse: collapse; border: none;">
     {% for project in site.portfolio %}
     <tr style="border-bottom: 1px solid #eee;">
-      <td style="width: 10%; padding: 12px 0; vertical-align: top;">
+      <td style="width: 12%; padding: 12px 0; vertical-align: top;">
         <span style="background-color: #28a745; color: white; padding: 3px 6px; border-radius: 4px; font-size: 0.8em; font-weight: bold;">PROJ</span>
       </td>
-      <td style="padding: 12px 0;">
+      <td style="width: 58%; padding: 12px 15px 12px 0; vertical-align: top;">
         <strong><a href="{{ project.url }}">{{ project.title }}</a></strong><br>
-        <div class="project-excerpt" style="font-size: 0.9em; color: #555; margin-top: 8px;">
+        <div class="project-text-only" style="font-size: 0.9em; color: #555; margin-top: 8px;">
+          {{ project.excerpt | markdownify }}
+        </div>
+      </td>
+      <td style="width: 30%; padding: 12px 0; vertical-align: top;" aria-hidden="true">
+        <div class="project-img-only">
           {{ project.excerpt | markdownify }}
         </div>
       </td>
