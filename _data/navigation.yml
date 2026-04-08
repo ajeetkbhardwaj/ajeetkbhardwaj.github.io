@@ -12,13 +12,13 @@ main:
     #url: /cv/
     url: /files/july_resume.pdf
 
-  - title: "Portfolio"
+  - title: "Projects"
     url: /portfolio/
     
-  - title: "Research"
+  - title: "Publications"
     url: /publications/
 
-  - title: "Blog Posts"
+  - title: "Posts"
     url: /year-archive/
 
   # title: "Talks"

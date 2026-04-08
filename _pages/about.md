@@ -29,7 +29,7 @@ My academic journey began with a B.Sc (Hons) in Applied Mathematics from Jamia M
   </table>
 </div>
 
-<h2>Talks & Research Experiences</h2>
+<h2>Research Experiences</h2>
 <div class="table-responsive">
   <table style="width: 100%; border-collapse: collapse; border: none;">
     <tr style="border-bottom: 1px solid #eee;">
