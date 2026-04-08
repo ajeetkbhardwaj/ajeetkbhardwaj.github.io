@@ -16,20 +16,8 @@ My academic journey began with a B.Sc (Hons) in Applied Mathematics from Jamia M
 <div style="clear: both;"></div>
 
 <br>
-<h2>Latest Posts</h2>
-<!-- This liquid loop automatically fetches your latest 5 posts from your _posts folder -->
-<div class="table-responsive">
-  <table style="width: 100%; border-collapse: collapse; border: none;">
-    {% for post in site.posts limit:5 %}
-    <tr style="border-bottom: 1px solid #eee;">
-      <td style="width: 20%; padding: 8px 0; color: #666;">{{ post.date | date: "%b %d, %Y" }}</td>
-      <td style="padding: 8px 0;"><a href="{{ post.url }}">{{ post.title }}</a></td>
-    </tr>
-    {% endfor %}
-  </table>
-</div>
 
-<h2>Research Experiences</h2>
+<h2>Research Experience</h2>
 <div class="table-responsive">
   <table style="width: 100%; border-collapse: collapse; border: none;">
     <tr style="border-bottom: 1px solid #eee;">
@@ -47,7 +35,22 @@ My academic journey began with a B.Sc (Hons) in Applied Mathematics from Jamia M
   </table>
 </div>
 
-<h2>Projects</h2>
+
+<h2>Latest Posts</h2>
+<!-- This liquid loop automatically fetches your latest 5 posts from your _posts folder -->
+<div class="table-responsive">
+  <table style="width: 100%; border-collapse: collapse; border: none;">
+    {% for post in site.posts limit:5 %}
+    <tr style="border-bottom: 1px solid #eee;">
+      <td style="width: 20%; padding: 8px 0; color: #666;">{{ post.date | date: "%b %d, %Y" }}</td>
+      <td style="padding: 8px 0;"><a href="{{ post.url }}">{{ post.title }}</a></td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+
+
+<h2>Latest Projects</h2>
 <style>
   .project-text-only img, 
   .project-text-only br {
