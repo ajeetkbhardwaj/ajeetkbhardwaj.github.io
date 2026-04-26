@@ -111,3 +111,4 @@ My academic journey began with a B.Sc (Hons) in Applied Mathematics from Jamia M
     {% endfor %}
   </table>
 </div>
+

@@ -14,7 +14,7 @@ Introduction to operations for Large Language Models(LLMs) also called as MLOps 
 - Model Versioning for base models and fine-tuned variants, CI/CD specifics
 - Accuracy, Performance vs Cost tradeoffs, Observability, Security & Governance (Bias, Toxicity, Explainability)
 
-![1754406531706](image/art-10-llmops-nptel/1754406531706.png)
+![1754406531706](../../images/notes/art-10-llmops-nptel/1754406531706.png)
 
 ### Understanding LLMs
 
@@ -36,7 +36,7 @@ Fine-tuning (Stage 2): In this stage, a pre-trained foundational model is fine-t
 Usage (Stage 3): This is the final stage where the LLM is used as an API, receiving prompts and providing programmatic responses, such as JSON outputs.
 
 the capabilities of LLMs are widely publicized, but here our focus will be on operational aspects of working with them, which happens around the LLM.
-![1754407115341](image/art-10-llmops-nptel/1754407115341.png)
+![1754407115341](../../images/notes/art-10-llmops-nptel/1754407115341.png)
 
 The characteristics of classical machine learning (ML) models, deep learning models, and large language models (LLMs) across several key factors.
 
@@ -71,7 +71,7 @@ What is the difference between Open Source vs Open Weights LLM ?
 
 What are the key challenges in ML, DL and LLMs ?
 
-![1754407782513](image/art-10-llmops-nptel/1754407782513.png)
+![1754407782513](../../images/notes/art-10-llmops-nptel/1754407782513.png)
 
 The challenges of LLMs compared to classical machine learning, breaking them down by the three stages of LLM interaction: pre-training, fine-tuning, and usage.
 
@@ -95,10 +95,10 @@ The challenges of LLMs compared to classical machine learning, breaking them dow
 
 ### Pre-Traning : Data Challenges
 
-![1754410144020](image/art-10-llmops-nptel/1754410144020.png)
-![1754410659657](image/art-10-llmops-nptel/1754410659657.png)
-![1754410854844](image/art-10-llmops-nptel/1754410854844.png)
-![1754411040750](image/art-10-llmops-nptel/1754411040750.png)
+![1754410144020](../../images/notes/art-10-llmops-nptel/1754410144020.png)
+![1754410659657](../../images/notes/art-10-llmops-nptel/1754410659657.png)
+![1754410854844](../../images/notes/art-10-llmops-nptel/1754410854844.png)
+![1754411040750](../../images/notes/art-10-llmops-nptel/1754411040750.png)
 
 Note : Key operational items related to data and compute in the pretraining stage
 
@@ -113,9 +113,9 @@ There are alots of challenges involved in the pre-training stage of Large Langua
 
 ### Pre-Training : Compute Challenges
 
-![1754411377155](image/art-10-llmops-nptel/1754411377155.png)
-![1754411852024](image/art-10-llmops-nptel/1754411852024.png)
-![1754411873439](image/art-10-llmops-nptel/1754411873439.png)
+![1754411377155](../../images/notes/art-10-llmops-nptel/1754411377155.png)
+![1754411852024](../../images/notes/art-10-llmops-nptel/1754411852024.png)
+![1754411873439](../../images/notes/art-10-llmops-nptel/1754411873439.png)
 What are the challenges related to the compute resources during the pre-training stage of Large Language Models (LLMs).
 
 * **Memory Bottlenecks:** The large model sizes and batch sizes can exceed the memory of a single GPU, leading to out-of-memory errors in a distributed cluster setup. To mitigate this, frequent checkpointing and compressed floating-point representations (using 16-bit instead of 32-bit) are recommended.
@@ -135,8 +135,8 @@ or
 
 how to apply best practices from classical machine learning (ML) to large language models (LLMs), focusing on versioning, CI/CD, and testing.
 
-![1754412323123](image/art-10-llmops-nptel/1754412323123.png)
-![1754412602957](image/art-10-llmops-nptel/1754412602957.png)
+![1754412323123](../../images/notes/art-10-llmops-nptel/1754412323123.png)
+![1754412602957](../../images/notes/art-10-llmops-nptel/1754412602957.png)
 
 #### **Versioning for Foundation Models** :
 
@@ -158,7 +158,7 @@ These models are long-lived and multi-purpose, used across different teams and c
 
 #### Adapting git-flow to finetuned models
 
-![1754413210696](image/art-10-llmops-nptel/1754413210696.png)
+![1754413210696](../../images/notes/art-10-llmops-nptel/1754413210696.png)
 
 how to adapt the GitFlow paradigm for fine-tuned Large Language Models (LLMs), a process that differs significantly from classical machine learning (ML) projects.
 
@@ -182,7 +182,7 @@ how to adapt the GitFlow paradigm for fine-tuned Large Language Models (LLMs), a
 
 ### Fine-Tuning : Testing
 
-![1754413782374](image/art-10-llmops-nptel/1754413782374.png)
+![1754413782374](../../images/notes/art-10-llmops-nptel/1754413782374.png)
 
 What are the challenges and methods for testing Large Language Models (LLMs) ?
 
@@ -202,7 +202,7 @@ What are the challenges and methods for testing Large Language Models (LLMs) ?
   * This is important because prompts from end-users can cause the model to behave unpredictably, a scenario that may not have been captured in the CI stage.
 * **CI/CD is a must:** The speaker emphasizes that Continuous Integration and Continuous Deployment (CI/CD) is essential for LLM fine-tuning.
 
-![1754414382170](image/art-10-llmops-nptel/1754414382170.png)
+![1754414382170](../../images/notes/art-10-llmops-nptel/1754414382170.png)
 
 Our focus will be on various testing practices essential for LLMs, adapting the concepts from classical ML and software testing.
 
@@ -219,9 +219,9 @@ Note : In LLM full automation might not be possible, and a "human in the loop" i
 
 ### CI for LLMs
 
-![1754414771805](image/art-10-llmops-nptel/1754414771805.png)
-![1754414850573](image/art-10-llmops-nptel/1754414850573.png)
-![1754414994318](image/art-10-llmops-nptel/1754414994318.png)
+![1754414771805](../../images/notes/art-10-llmops-nptel/1754414771805.png)
+![1754414850573](../../images/notes/art-10-llmops-nptel/1754414850573.png)
+![1754414994318](../../images/notes/art-10-llmops-nptel/1754414994318.png)
 the specialized Continuous Integration (CI) process for Large Language Models (LLMs) and compares it to classical machine learning (ML).
 
 #### Specialized Infrastructure for LLMs CI
@@ -256,13 +256,13 @@ how Continuous Deployment (CD) can be applied to large foundation models.
 
 #### CD for Foundation Models
 
-![1754415350159](image/art-10-llmops-nptel/1754415350159.png)
+![1754415350159](../../images/notes/art-10-llmops-nptel/1754415350159.png)
 
 Foundation Models: For foundation models, which are like core software components with downstream dependencies, the CD process should prioritize creating stable, safety-critical releases. The git flow main branch is recommended as a suitable vehicle for disseminating these models.
 
 #### CD for Finetuned Models
 
-![1754415404784](image/art-10-llmops-nptel/1754415404784.png)
+![1754415404784](../../images/notes/art-10-llmops-nptel/1754415404784.png)
 Fine-tuned Models: Fine-tuned models, which are built on top of foundation models, are released more frequently. Here, the focus of the CD should be on speed and iteration, similar to conventional software development.
 
 Gitflow: The video suggests using a Gitflow technique adapted for LLMs. The main branch is used for foundation models, while the release branch is used for fine-tuned models. Experimental fine-tuning variations can be worked on in separate ephemeral branches before being merged back into the release branch via a merge or pull request
@@ -271,7 +271,7 @@ CI for LLMs, CD for foundation and finetuned models, Typical LLM usage patterns
 
 ### Usage of Deployed Models
 
-![1754415461647](image/art-10-llmops-nptel/1754415461647.png)
+![1754415461647](../../images/notes/art-10-llmops-nptel/1754415461647.png)
 
 A common misconception is that Large Language Models (LLMs) learn and update themselves as users interact with them. However, this is not the case. The core weights of the model are not updated during a conversation; instead, the LLM uses a **context window** to store and retrieve new information provided by the user.
 
@@ -290,7 +290,7 @@ While LLMs cannot update their core weights on the fly, they can still perform s
 
 #### LLM Usage : Lookup + Orchestration is common
 
-![1754416378107](image/art-10-llmops-nptel/1754416378107.png)
+![1754416378107](../../images/notes/art-10-llmops-nptel/1754416378107.png)
 how to augment the limitations of LLMs when working with new data by using common patterns for data lookup and orchestration.
 
 #### Data Lookup and Orchestration
@@ -303,7 +303,7 @@ how to augment the limitations of LLMs when working with new data by using commo
 
 #### Example : Customer Service Agent
 
-![1754416532369](image/art-10-llmops-nptel/1754416532369.png)
+![1754416532369](../../images/notes/art-10-llmops-nptel/1754416532369.png)
 How to use an LLM as a customer service agent for a bank.
 
 How an LLM-powered agent could answer a customer's question, such as why a specific fee was charged. To do this, the agent needs to access several types of information:
@@ -334,7 +334,7 @@ CI/CD (Continuous Integration/Continuous Deployment) aspects for LLMs, specifica
 ### LLM in Production : Measuring LLM Accuracy
 
 What are the best practices and emerging topics in the field
-![1754471309292](image/art-10-llmops-nptel/1754471309292.png)
+![1754471309292](../../images/notes/art-10-llmops-nptel/1754471309292.png)
 
 What are the consideration for running LLMs in a production environment and it is the most a critical aspect for a comprehensive understanding of LLM ops
 
@@ -352,11 +352,11 @@ LLM as a Judge: Other LLMs can be used to evaluate and critique the output of th
 
 #### LM Evaluation Harness
 
-![1754471424535](image/art-10-llmops-nptel/1754471424535.png)
+![1754471424535](../../images/notes/art-10-llmops-nptel/1754471424535.png)
 
 #### Imporving Fine-tuned LLM Accuracy
 
-![1754471927233](image/art-10-llmops-nptel/1754471927233.png)
+![1754471927233](../../images/notes/art-10-llmops-nptel/1754471927233.png)
 
 Improving LLM Accuracy
 There are four effective ways to improve the accuracy of a fine-tuned LLM:
@@ -377,7 +377,7 @@ Verification layers: Adding separate layers or APIs that check an LLM's response
 
 #### Prompt Engineering
 
-![1754472548116](image/art-10-llmops-nptel/1754472548116.png)
+![1754472548116](../../images/notes/art-10-llmops-nptel/1754472548116.png)
 
 Prompt engineering, a method for improving LLM accuracy by treating prompts with the same seriousness as code.
 
@@ -396,7 +396,7 @@ Once the prompt is defined using these structures then it can organize those str
 
 #### Verification Layer
 
-![1754473308577](image/art-10-llmops-nptel/1754473308577.png)
+![1754473308577](../../images/notes/art-10-llmops-nptel/1754473308577.png)
 **Verification Layers**
 Purpose: The verification layers as a method to improve LLM accuracy. This is a separate layer that takes the LLM's response and checks it for compliance with factual accuracy or security policies. This layer can act as an API that invokes the LLM, processes the response, and then provides a verified output.
 
@@ -410,4 +410,4 @@ An example of a critique LLM is given, where a verifier LLM checks a primary LLM
 
 #### Example - usage of critique LLMs
 
-![1754473341297](image/art-10-llmops-nptel/1754473341297.png)
+![1754473341297](../../images/notes/art-10-llmops-nptel/1754473341297.png)

@@ -18,3 +18,7 @@ package-lock.json
 
 # Ignore folders related to IDEs
 .vscode/
+
+# Ignore Folders and Files
+_abc/
+_posts/papers/

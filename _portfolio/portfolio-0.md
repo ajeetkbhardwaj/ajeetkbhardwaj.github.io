@@ -1,10 +1,12 @@
 ---
-title: "Lean4Agent: Multi-Agent AI System for Solving Mathematical Problems"
+title: "Lean4Agent: Multi-Agent AI System for Verifiable Writing and Proving Theorems in Formal Mathemtics"
 excerpt: "Lean4Agent is a collaborative AI system designed to tackle complex mathematical problems using multiple intelligent agents.<br/><img src='/images/portfolio/Lean4AgentArchs.png' alt='Lean4Agent Architecture'/>"
 collection: portfolio
 url: "https://github.com/ajeetkbhardwaj/Lean4Agent/tree/main"
 category: "AI Systems"
 ---
+
+
 **Abstract**
 > *Lean4Agent is an innovative multi-agent AI system designed to automate the process of solving mathematical problems by translating natural language descriptions into formal proofs using the Lean4 theorem prover. By orchestrating specialized agents for task instigation, planning, code generation, verification, and feedback, Lean4Agent enables seamless collaboration between humans and machines in mathematical reasoning. This approach not only accelerates the formalization and verification of complex mathematical tasks but also ensures correctness and reliability, unlocking new possibilities for large-scale collaborative mathematics.*
 
