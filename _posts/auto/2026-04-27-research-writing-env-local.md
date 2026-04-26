@@ -449,8 +449,8 @@ The three commands `\rhead`, `\chead`, `\cfoot` define a three-zone header/foote
 The `\@maketitle` redefinition is the most complex part of `arxiv.sty`:
 
 ```latex
-\renewcommand{\@maketitle}{%
-  \vbox{%
+\renewcommand{\@maketitle}{ 
+  \vbox{
     \hsize\textwidth
     \vskip 0.1in
     \@toptitlebar          % Horizontal rule above title
@@ -486,11 +486,11 @@ Replaces the default `abstract` environment. The title "Abstract" is rendered ce
 
 ```latex
 % Compact section spacing
-\renewcommand{\section}{%
-  \@startsection{section}{1}{\z@}%
-    {-2.0ex \@plus -0.5ex \@minus -0.2ex}%   % Space above
-    { 1.5ex \@plus  0.3ex \@minus  0.2ex}%   % Space below
-    {\large\bf\raggedright}%                   % Font style
+\renewcommand{\section}{
+  \@startsection{section}{1}{\z@}
+    {-2.0ex \@plus -0.5ex \@minus -0.2ex}  % Space above
+    { 1.5ex \@plus  0.3ex \@minus  0.2ex}   % Space below
+    {\large\bf\raggedright}            % Font style
 }
 ```
 
