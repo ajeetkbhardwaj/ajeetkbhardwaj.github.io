@@ -8,8 +8,6 @@ tags:
   - Video Downloader
   - Systems
 ---
-# YTube Downloader — A Native C Command-Line Tool -> [GitHub](https://github.com/ajeetkbhardwaj/ytube-dowloader)
-
 > **No Python. No Node. No shell scripts.** Just C, `fork()`, and `execvp()` calling `yt-dlp` at full speed.
 
 ![img](https://www.a2zconverter.com/admin/public/assets/admin/images/youtube-downloader.png)
@@ -637,5 +635,3 @@ clang -O3 -Wall -target arm64-apple-macos -o build   build.c
 ```
 
 ---
-
-*Built for Apple M4 · POSIX · clang · yt-dlp · aria2c · zero interpreter overhead*

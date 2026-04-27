@@ -8,9 +8,7 @@ tags:
   - Writing
   - Systems
 ---
-# Automated LaTeX Research Writing Environment
-
-> **"Write-Once, Compile-Anywhere"** — A containerized academic paper workflow using Docker, VSCode, and TeX Live.
+>  **"Write-Once, Compile-Anywhere"** — A containerized academic paper workflow using Docker, VSCode, and TeX Live.
 
 Writing research papers in LaTeX has one persistent problem: every collaborator has a different local TeX installation, causing packages to break, fonts to go missing, and hours lost to environment debugging. This project solves that permanently by encapsulating the entire TeX Live engine inside a **Docker Dev Container**, giving every author — on any machine — an identical, reproducible environment.
 
@@ -771,3 +769,16 @@ This template gives you a production-grade academic writing environment in under
 ---
 
 *Built for academic researchers · Docker + VSCode + TeX Live · arXiv preprint style*
+
+### Citation
+
+```bibtex
+@software{latex-template,
+  title={Automated LaTeX Research Writing Environment},
+  author={Ajeet Kumar},
+  profile={https://ajeetkbhardwaj.github.io},
+  year={2026},
+  url={https://github.com/ajeetkbhardwaj/latex-template},
+  license={MIT}
+}
+```

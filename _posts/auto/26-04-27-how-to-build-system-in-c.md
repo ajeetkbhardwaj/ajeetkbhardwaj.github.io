@@ -9,8 +9,6 @@ tags:
   - Automation
   - C Programming
 ---
-# How to Build a Build System in C
-
 > **"Don't use Make. Use C."** — A philosophy for engineers who want full control.
 
 As software engineers we habitually reach for **Make**, **CMake**, or **Bazel** the moment we need to compile more than one file. These are excellent tools — but they are black boxes. This article walks through building a **zero-dependency build system written entirely in C**, bootstrapping itself and compiling your project with parallel jobs, incremental rebuilds, and self-healing binaries.
@@ -676,10 +674,22 @@ clang -o build build.c
 
 ---
 
-## License
+## MIT License
 
 This project is released into the public domain. Use it, study it, hack it.
 
 ---
 
-*Built with ❤️ on Apple M4 · POSIX · clang · zero external dependencies*
+### Citation
+
+```bibtex
+@software{latex-template,
+  title={How to Build a Build System in C},
+  author={Ajeet Kumar},
+  profile={https://ajeetkbhardwaj.github.io},
+  year={2026},
+  url={https://github.com/ajeetkbhardwaj/how-to-build-system-in-c},
+  license={MIT},
+}
+
+```
