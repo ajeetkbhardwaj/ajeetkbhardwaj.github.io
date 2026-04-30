@@ -6,10 +6,10 @@ import glob
 import argparse
 from datetime import datetime
 
-TEAM_DIR = "_team"
+PROJECT_DIR = "_portfolio"
 
-# Create _team directory if it doesn't exist
-os.makedirs(TEAM_DIR, exist_ok=True)
+# Create _portfolio directory if it doesn't exist
+os.makedirs(PROJECT_DIR, exist_ok=True)
 
 MARKER_START = "<!-- AUTO-TEAM-START -->"
 MARKER_END = "<!-- AUTO-TEAM-END -->"
@@ -27,20 +27,23 @@ def main():
     today = datetime.now().strftime("%Y-%m-%d")
 
     # Find existing project file to avoid creating a new one every time the date changes
-    existing_project_files = [f for f in glob.glob(f"{TEAM_DIR}/*{safe_repo}.md") if "-auto-" not in f]
+    existing_project_files = [f for f in glob.glob(f"{PROJECT_DIR}/*{safe_repo}.md") if "-auto-" not in f]
     if existing_project_files:
         team_file_path = existing_project_files[0]
     else:
-        team_file_path = os.path.join(TEAM_DIR, f"{today}-{safe_repo}.md")
+        team_file_path = os.path.join(PROJECT_DIR, f"{today}-{safe_repo}.md")
 
     try:
         # Fetch contributors from GitHub API
-        req = urllib.request.Request(api_url, headers={'User-Agent': 'Mozilla/5.0'})
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        if "GITHUB_TOKEN" in os.environ:
+            headers['Authorization'] = f"Bearer {os.environ['GITHUB_TOKEN']}"
+        req = urllib.request.Request(api_url, headers=headers)
         with urllib.request.urlopen(req) as response:
             contributors = json.loads(response.read().decode())
             
         # Clean up old individual files so they don't duplicate
-        for f in glob.glob(f"{TEAM_DIR}/*-auto-{safe_repo}-*.md"):
+        for f in glob.glob(f"{PROJECT_DIR}/*-auto-{safe_repo}-*.md"):
             try:
                 os.remove(f)
             except:
@@ -89,7 +92,7 @@ def main():
             # Create a brand new project file with the weekly update template
             new_content = f"""---
 title: "{repo} Project"
-collection: team
+collection: portfolio
 date: {today}
 excerpt: "Team updates and project details for {repo}"
 ---

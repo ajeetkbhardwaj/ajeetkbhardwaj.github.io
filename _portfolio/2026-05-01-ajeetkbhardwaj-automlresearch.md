@@ -1,8 +1,10 @@
 ---
 title: "AutoResearch: Autonomous ML Research Framework"
-collection: team
+collection: portfolio
 date: 2026-05-01
 excerpt: "Autonomous machine learning research framework for AI agents"
+url: "https://github.com/ajeetkbhardwaj/automlresearch"
+category: "AI Systems"
 ---
 
 ## 🔬 AutoResearch Overview
@@ -44,17 +46,9 @@ Then start the autonomous loop:
 ```bash
 autoresearch run
 ```
-Or run a single step as a tool:
-```bash
-autoresearch step --description "Trying Muon optimizer instead of AdamW"
-```
 
 ## 🛰️ Autopilot Mode (Pro)
 For high-throughput research, AutoResearch supports a fully autonomous "Autopilot" mode. This allows the framework to automatically drive interactive CLI agents like OpenCode or Claude Code by feeding them prompts and auto-exiting sessions once the code is optimized.
-
-* **Install Driver:** `pip install pexpect`
-* **Configure:** Set `autopilot: true` in your `autoresearch.yaml`.
-* **Deploy:** Run `autoresearch run` and the framework will handle $N$ experiments completely unattended.
 
 ## 📊 Comparison: AutoResearch vs. Traditional AutoML
 
@@ -70,15 +64,21 @@ For high-throughput research, AutoResearch supports a fully autonomous "Autopilo
 
 <!-- AUTO-TEAM-START -->
 ## 👥 Team Roster for `ajeetkbhardwaj/automlresearch`
-*Run the GitHub Action to auto-populate your team members here!*
+
+* **👑 Team Leader:**
+  * <img src='https://avatars.githubusercontent.com/ajeetkbhardwaj?v=4&s=50' width='25' style='border-radius:50%; vertical-align:middle'/> **ajeetkbhardwaj** (Active Commits)
+* **👨‍💻 Team Members:**
+  * <img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png?s=50' width='25' style='border-radius:50%; vertical-align:middle'/> **Open-Source Contributors** (Active Commits)
 <!-- AUTO-TEAM-END -->
 
 ---
 ## 📅 Weekly Plan & Updates
-*Write your weekly plan, problems tackled, and achievements here. The automated script will never overwrite this text!*
 
-### 👑 Team Leader Update
-* **Solved:** [What did you solve?]
+### 👑 Team Leader Update (Ajeet Kumar)
+* **Solved:** Configured `autopilot: true` in the `autoresearch.yaml` file so the framework can automatically drive the agents unattended.
+* **Completed:** Implemented the long-term semantic memory (RAG) using ChromaDB, allowing the agents to reference previous runs.
+* **Next Steps:** Optimize the SQL-backed metadata management for faster Git-based experiment versioning.
 
 ### 👨‍💻 Team Member Updates
-* **Solved:** [What did the team solve?]
+* **Solved:** Fixed the Weights & Biases (W&B) integration for real-time metric tracking.
+* **Working on:** Parallelizing the research environments across clusters using Ray.

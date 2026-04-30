@@ -23,13 +23,23 @@ jobs:
           python-version: '3.x'
 
       - name: Run update script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          REPO="${{ github.event.inputs.repo_url || 'ajeetkbhardwaj/automlresearch' }}"
-          python scripts/update_team.py --repo "$REPO"
+          # For manual runs, use the input. For scheduled runs, run all projects.
+          if [ -n "${{ github.event.inputs.repo_url }}" ]; then
+            python scripts/update_team.py --repo "${{ github.event.inputs.repo_url }}"
+          else
+            echo "Running scheduled update for all projects..."
+            python scripts/update_team.py --repo "ajeetkbhardwaj/automlresearch"
+            python scripts/update_team.py --repo "ajeetkbhardwaj/Lean4Agent"
+            python scripts/update_team.py --repo "ajeetkbhardwaj/NextQuestAI"
+            python scripts/update_team.py --repo "ajeetkbhardwaj/discrete-differential-geometry"
+          fi
 
       - name: Commit and push if changes exist
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Auto-Updater"
-          git add _team/
+          git add _portfolio/
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update team members" && git push)
