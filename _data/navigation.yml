@@ -20,6 +20,8 @@ main:
 
   - title: "Posts"
     url: /year-archive/
+  - title: "Teams"
+    url: /team/
 
   # title: "Talks"
    # url: /talks/    
