@@ -64,7 +64,7 @@ streamlit run app.py
 ## 👥 Team Roster for `ajeetkbhardwaj/NextQuestAI`
 
 * **👑 Team Leader:**
-  * <img src='https://avatars.githubusercontent.com/u/87787220?v=4?s=50' width='25' style='border-radius:50%; vertical-align:middle'/> **ajeetkbhardwaj** (12 commits)
+  * <img src='https://avatars.githubusercontent.com/u/87787220?v=4?s=50' width='25' style='border-radius:50%; vertical-align:middle'/> **ajeetkbhardwaj** (17 commits)
 
 <!-- AUTO-TEAM-END -->
 
