@@ -1,5 +1,12 @@
-# System Design from First Principle - The Natural Science of Softwares
-
+---
+title: 'System Design from First Principle - The Natural Science of Softwares'
+date: 2026-04-10
+permalink: /posts/2026/04/10/system-design-from-first-principle-part-1/
+tags:
+  - System
+  - Design
+  - Building
+---
 What is System Design ?
 
 System Design is not boxes and arrows instead latency, bandwidths and cost. That defines why high-level system architecture must be grounded in physical and mathematical realities rather than just best practices or trends in the industries.
