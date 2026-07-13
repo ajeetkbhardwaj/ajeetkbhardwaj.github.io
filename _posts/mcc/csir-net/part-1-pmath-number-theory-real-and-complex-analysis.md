@@ -1,0 +1,168 @@
+
+Welcome back to **MathCareCentre**! 
+### PMath : Geometry, Algebra, Analysis and Topology
+
+#### Number Theory and Combinatorics :
+
+1. Permutations, combinations, pigeon-hole principle, inclusion-exclusion principle,
+   derangements.
+2. Fundamental theorem of arithmetic, divisibility in Z, congruences, Chinese Remainder Theorem, Euler’s Ø- function, primitive roots.
+
+#### Algebra
+
+3. Groups, subgroups, normal subgroups, quotient groups, homomorphisms, cyclic groups, permutation groups, Cayley’s theorem, class equations, Sylow theorems.
+4. Rings, ideals, prime and maximal ideals, quotient rings, unique factorization domain, principal ideal domain, Euclidean domain, Polynomial rings and irreducibility criteria.
+5. Fields, finite fields, field extensions, Galois Theory.
+6. Vector spaces, subspaces, linear dependence, basis, dimension, algebra of linear
+   transformations, Matrix representation of Transformation, Change of Basis
+7. Algebra of matrices, rank and determinant of matrices, linear equations.
+8. Eigenvalues and eigenvectors, Cayley-Hamilton theorem.
+9. Structure of Tranformation like canonical forms, diagonal forms, triangular forms, Jordan forms.
+10. Inner product spaces, orthonormal basis, Quadratic forms, reduction and classification of quadratic forms
+
+#### Analysis
+
+11. Elementary set theory, finite, countable and uncountable sets.
+12. Real number system as a complete ordered field, Archimedean property, supremum, infimum.
+13. Sequences and series, convergence, limsup, liminf.
+14. Bolzano Weierstrass theorem, Heine Borel theorem.
+15. Continuity, uniform continuity, differentiability, mean value theorem.
+16. Sequences and series of functions, uniform convergence.
+17. Riemann sums and Riemann integral, Improper Integrals.
+18. Monotonic functions, types of discontinuity, functions of bounded variation, Lebesgue measure, Lebesgue integral.
+19. Functions of several variables, directional derivative, partial derivative, derivative as a linear transformation, inverse and implicit function theorems.
+20. Metric spaces, compactness, connectedness.
+21. Normed linear Spaces. Spaces of continuous functions as examples.
+22. Algebra of complex numbers, the complex plane, polynomials, power series, transcendental functions such as exponential, trigonometric and hyperbolic functions.
+23. Analytic functions, Cauchy-Riemann equations, Contour integral, Cauchy’s theorem, Cauchy’s integral formula.
+24. Liouville’s theorem, Maximum modulus principle, Schwarz lemma, Open mapping theorem.
+25. Taylor series, Laurent series, calculus of residues.
+26. Conformal mappings, Mobius transformations.
+
+#### Topology
+
+27. Topological Space, basis, dense sets, subspace and product topology, separation axioms, connectedness and compactness.
+
+## Combinatorics
+
+## Number Theory
+
+## Algebra : Abstract
+## Group Theory
+1. Group Structure and Properties
+2. Cyclic Group
+3. Abelian Group
+4. Special Subgroups - Center and Centralizer
+5. Subgroups 
+6. Cauchy Theorem and Lagrange Theorem
+
+---
+ **Group Theory** is arguably the most fundamental and extensively tested topic in Modern Algebra for the CSIR-NET exam.
+
+
+### 1. Group Structure and Properties
+The transition from a simple set to a Group involves a strict accumulation of axioms.
+
+Let $G$ be a non-empty set equipped with a binary operation $*$.
+
+1. **Groupoid (or Magma):** Satisfies **Closure** ($a * b \in G$ for all $a, b \in G$).
+2. **Semigroup:** Satisfies Closure + **Associativity** ($a * (b * c) = (a * b) * c$).
+* *Example:* $(\mathbb{N}, +)$
+
+
+3. **Monoid:** Satisfies Semigroup axioms + **Identity Element** ($\exists e \in G$ such that $a * e = e * a = a$).
+* *Example:* $(\mathbb{N} \cup \{0\}, +)$ with identity 0.
+
+
+4. **Group:** Satisfies Monoid axioms + **Inverse Element** ($\forall a \in G, \exists a^{-1} \in G$ such that $a * a^{-1} = a^{-1} * a = e$).
+* *Example:* $(\mathbb{Z}, +)$ with identity 0 and inverse $-a$.
+
+
+5. **Abelian Group:** A Group that also satisfies **Commutativity** ($a * b = b * a$).
+
+#### Order of Elements and Groups
+
+* **Order of a Group $O(G)$ or $\vert{}G\vert{}$:** The total number of elements in the set $G$.
+* **Order of an Element $O(a)$ or $\vert{}a\vert{}$:** The smallest positive integer $n$ such that $a^n = e$. (If additive, $n \cdot a = e$). If no such $n$ exists, the order is infinite.
+
+**High-Yield CSIR-NET Results on Order:**
+
+1. **Divisibility:** If $G$ is finite, $O(a)$ divides $O(G)$ for every $a \in G$.
+2. **Element Powers:** If $a^m = e$, then $O(a)$ must divide $m$.
+3. **Order of Products:** $O(ab) = O(ba)$.
+4. **Co-prime Commuting Elements:** If $ab = ba$ and $\gcd(O(a), O(b)) = 1$, then $O(ab) = O(a) \times O(b)$.
+5. **Order of a Power:** $O(a^k) = \frac{O(a)}{\gcd(O(a), k)}$. *(Crucial formula!)*
+6. **Cauchy's Theorem (Implied):** If a prime $p$ divides $O(G)$, there exists at least one element of exactly order $p$.
+
+---
+### 2. Cyclic Groups ($G = \langle a \rangle$)
+
+A group $G$ is cyclic if every element can be generated by repeatedly applying the operation to a single element $a$. $G = \{a^n \mid n \in \mathbb{Z}\}$.
+
+* **Order Property:** $O(G) = O(a)$ (The order of the group equals the order of its generator).
+* **Number of Generators:** A finite cyclic group of order $n$ has exactly **$\phi(n)$ generators** (Euler's Totient Function). An infinite cyclic group (like $\mathbb{Z}$) always has exactly 2 generators ($1$ and $-1$).
+* **Structure:**
+* *Every* cyclic group is abelian. (Converse is false, e.g., Klein-4 group $K_4$).
+* *Every* subgroup of a cyclic group is cyclic.
+
+
+* **Prime Order:** Every group of prime order $p$ is strictly cyclic.
+* If a group $G$ has order 15 ($O(G) = 3 \times 5$). Does it have to be cyclic?
+   - Look at result (6) in your notes: If $O(G) = pq$ (distinct primes $p<q$) and $p \nmid (q-1)$, then $G$ is cyclic.
+   - Here $p=3, q=5$. Does 3 divide $5-1 = 4$? No. Therefore, any group of order 15 is automatically cyclic!
+---
+### 3. Abelian Group
+
+---
+### 4. Special Subgroups: Center and Centralizer
+
+**1. Center of a Group $Z(G)$:**
+The set of elements that commute with *every* element in the group.
+$Z(G) = \{z \in G \mid zx = xz \text{ for all } x \in G\}$
+
+* $Z(G)$ is always an **abelian subgroup** of $G$.
+* If $G$ is abelian, $Z(G) = G$.
+* If $O(G) = p^n$ ($p$ is prime), then the center is strictly non-trivial ($Z(G) \neq \{e\}$).
+
+**2. Centralizer of an element $C(a)$:**
+The set of elements that commute with a *specific* element $a$.
+$C(a) = \{g \in G \mid ga = ag\}$
+
+* $C(a)$ is a subgroup of $G$.
+* $Z(G)$ is the intersection of all centralizers: $Z(G) = \bigcap_{a \in G} C(a)$.
+
+---
+### 5. Subgroups
+
+A non-empty subset $H \subseteq G$ is a subgroup (denoted $H \le G$) if it forms a group itself.
+
+**Subgroup Tests:**
+
+1. **One-Step Test:** $a, b \in H \implies ab^{-1} \in H$.
+2. **Finite Subgroup Test:** If $H$ is a *finite* non-empty subset, you only need to show closure: $a, b \in H \implies ab \in H$.
+
+
+---
+### 6. Lagrange's Theorem
+
+**Lagrange's Theorem (The Most Important Theorem in Finite Group Theory):**
+If $G$ is a finite group and $H$ is a subgroup of $G$, then the order of $H$ divides the order of $G$.
+$O(H) \mid O(G)$
+
+* **Corollary:** $O(a) \mid O(G)$ for all $a$.
+* **The Converse Warning:** The converse of Lagrange is generally **FALSE**. If $k$ divides $O(G)$, there is no guarantee $G$ has a subgroup of order $k$. (Example: $A_4$ has order 12, but has no subgroup of order 6).
+* *Exception:* The converse is true for finite cyclic groups. (For cyclic groups, there is exactly one subgroup for every divisor).
+
+
+**Counting Cyclic Subgroups:**
+If $d$ divides $O(G)$, the number of cyclic subgroups of order $d$ is:
+
+
+$$\frac{\text{Total number of elements of order } d \text{ in } G}{\phi(d)}$$
+
+---
+ 
+
+
+## Algebra : Linear
+

@@ -316,7 +316,7 @@ tlmgr install $(cat tex-packages.txt)
 \usepackage{natbib}           % Author-year citations
 \usepackage{doi}              % DOI hyperlinks
 
-\graphicspath{{figures/}}     % All \includegraphics{} searches here
+{% raw %}\graphicspath{{figures/}}{% endraw %}     % All \includegraphics{} searches here
 ```
 
 The **load order matters**. `hyperref` must come after most other packages but before `cleveref`. `cleveref` must always be loaded last among cross-referencing packages. This order is already correct in the template.

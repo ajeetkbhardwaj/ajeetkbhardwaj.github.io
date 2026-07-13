@@ -36,19 +36,25 @@ $sidebar-screen-min-width   : 1024px;
 /* Dark theme for the site */
 html[data-theme="dark"] {
     --global-base-color                 : #{$background};
-    --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #{$background};
-    --global-border-color               : #{$light-gray};
-    --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : #{$light-gray};
-    --global-link-color                 : #{$link};
-    --global-link-color-hover           : #{$link-dark};
-    --global-link-color-visited         : #{$link-light};
-    --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$background-light};
-    --global-text-color                 : #{$text};
-    --global-text-color-light           : #{$light-gray};
-    --global-thead-color                : #{$background-lighter};
+    --global-bg-color                   : #111827; /* Deep slate */
+    --global-footer-bg-color            : #1f2937;
+    --global-border-color               : #374151;
+    --global-dark-border-color          : #4b5563;
+    --global-code-background-color      : #1f2937;
+    --global-code-text-color            : #e5e7eb;
+    --global-fig-caption-color          : #9ca3af;
+    --global-link-color                 : #818cf8; /* Light Indigo */
+    --global-link-color-hover           : #6366f1;
+    --global-link-color-visited         : #818cf8;  
+    --global-masthead-link-color        : #f3f4f6;
+    --global-masthead-link-color-hover  : #818cf8;
+    --global-text-color                 : #e5e7eb;
+    --global-text-color-light           : #9ca3af;
+    --global-thead-color                : #1f2937;
+    
+    /* Modern UI Variables - Dark Mode Overrides */
+    --glass-bg                        : rgba(31, 41, 55, 0.7);
+    --glass-border                    : rgba(255, 255, 255, 0.05);
+    --gradient-bg                     : linear-gradient(135deg, #111827 0%, #1f2937 100%);
+    --gradient-primary                : linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
 }

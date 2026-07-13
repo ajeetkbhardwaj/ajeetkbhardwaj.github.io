@@ -1,5 +1,36 @@
 # What Does It Take to Publish in Mathematics ?
 
+
+
+# Pure Mathematics : Analysis
+
+First of all answer the following question
+Quest-1  How we study calculus ?
+
+> Most of the time we use the results like definition, proposition and theorems to compute results. So, we can say that calculus deals with training students like us to able to master how do i compute ?
+
+Example-1 : In calculus how do we compute derivative of any function ? like $\frac{d}{dx} (x^2) = 2x$. But, we don't talk about the validation of the results we computed i.e why the procedure that we followed actually valid to compute the derivatives ? Therefore, In analysis we study why certain computations is valid ?
+
+Quest-2 : How we study analysis ?
+
+> In analysis, we always ask questions like
+>
+> 1. What exactly does derivative mean?
+> 2. Why does the limit exist?
+> 3. For which functions does differentiation fail?
+> 4. What assumptions are hidden?
+>    such thinking mindset we needed to study analysis ?
+
+In mathematics we study mathematical objects , relationship between objects and how relationship between objects changes w.r.t to others and many more lead to the special class of mathematical structures that mathematicians are interested to explore through geometry, algebra and analysis etc.
+
+In mathematics we study mathematical objects , relationship between objects and how relationship between objects changes w.r.t to others and many more lead to the special class of mathematical structures that mathematicians are interested to explore through geometry, algebra and analysis etc.
+
+Objects : Numbers, Sets, Functions, Manifolds etc
+
+Relations is defined between objects : Equality, Order, Group actions, Metrics etc
+
+Dynamics of relational changes : how these relations transform under mappings, perturbations or parameter variations like infinitesimal changes, homomorphisms preserving structure and continuity-convergence etc are completely captured through geometry, algebra and analysis resp.
+
 ## 1. The Mathematical Mindset
 
 The psychological foundation of research is often the most difficult barrier to overcome. Throughout my academic journey, I encountered countless questions, but I never thought to organize or categorize them. At the moment of discovery, the understanding was clear, but because I didn't document the logic or the context, those insights eventually faded.
@@ -119,7 +150,6 @@ The Method: The team spent years building a massive foundation—46 separate pro
 The Result: A Q1 (top-tier) publication in Advances in Mathematics.
 
 The Lesson for You: This is the ultimate proof that "organizing for future reference" works. By building a foundation of small, clear insights (the 46 propositions), the "insurmountable" problem becomes easy. Mastery is 90% preparation and 10% execution.
- 
 
 ## Collaboration, Submission, and the 2026 Landscape
 
@@ -172,6 +202,7 @@ Computational Reproducibility: If your work is applied, your Code is part of the
 Formal Verification: The shift toward Lean is real. High-tier journals now favor "Digitized Proofs" that can be machine-verified, ensuring your work is 100% logically sound before it even reaches a human referee.
 
 ## Conclusion
+
 Mathematics is often seen as a lonely path of genius, but your story proves it is actually a marathon of organization and intent. By capturing your questions today, you are giving a gift to your future self. You will never have to "start over" again because every fragment of time you spend is now a brick in a permanent foundation.
 
 Note : I have taken some lecture notes from the **Professor Amartya Goswami** from the University of Johannesburg and **Professor Zurab Janelidze** from Stellenbosch University. They share some practical advice and personal experiences regarding the research and publication process in mathematics[^1] and provide a strategic framework for assessing whether a piece of mathematical work is ready for publication and how to target high-quality journals.

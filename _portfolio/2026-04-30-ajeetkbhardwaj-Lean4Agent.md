@@ -55,7 +55,7 @@ python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
-
+ 
 **3. Build the Lean project:**
 ```bash
 lake build
@@ -69,14 +69,6 @@ python main.py --problem "Prove that the sum of two even numbers is even."
 
 ---
 
-<!-- AUTO-TEAM-START -->
-## 👥 Team Roster for `ajeetkbhardwaj/Lean4Agent`
-
-* **👑 Team Leader:**
-  * <img src='https://avatars.githubusercontent.com/ajeetkbhardwaj?v=4&s=50' width='25' style='border-radius:50%; vertical-align:middle'/> **ajeetkbhardwaj** (Active Commits)
-* **👨‍💻 Team Members:**
-  * <img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png?s=50' width='25' style='border-radius:50%; vertical-align:middle'/> **Open-Source Contributors** (Active Commits)
-<!-- AUTO-TEAM-END -->
 
 ---
 ## 📅 Weekly Plan & Updates

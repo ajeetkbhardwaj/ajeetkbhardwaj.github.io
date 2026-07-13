@@ -40,3 +40,265 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap');
+
+/* Custom UI Modernization Styles */
+
+html {
+    background: var(--gradient-bg);
+    background-attachment: fixed;
+}
+
+body {
+    background: transparent !important;
+    color: var(--global-text-color);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+    line-height: 1.6;
+}
+
+#bg-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.6; /* Soften the wave effect */
+}
+
+h1, h2, h3, h4, h5, h6,
+.archive__item-title, .page__title, .project-card-title {
+    font-family: 'Outfit', sans-serif !important;
+    letter-spacing: -0.02em;
+    color: var(--global-text-color);
+}
+
+/* Glassmorphism Card Style */
+.modern-card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--border-radius);
+    padding: 20px;
+    box-shadow: var(--box-shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .modern-card {
+        padding: 24px;
+    }
+}
+
+.modern-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--box-shadow-hover);
+    border-color: rgba(79, 70, 229, 0.2);
+}
+
+/* Modern Pill Badge */
+.pill-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background: var(--gradient-primary);
+    color: white;
+    box-shadow: 0 2px 4px rgba(79, 70, 229, 0.2);
+}
+
+/* Modern Button */
+.btn--modern {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--global-link-color);
+    background: rgba(79, 70, 229, 0.1);
+    transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid rgba(79, 70, 229, 0.2);
+}
+
+.btn--modern:hover {
+    background: var(--global-link-color);
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(79, 70, 229, 0.2);
+    transform: translateY(-1px);
+}
+
+/* Typography Enhancements for Content */
+.page__content {
+    font-size: 1.05rem; /* Reduced from 1.125rem so it doesn't feel too large */
+    line-height: 1.7;
+}
+
+.page__content p {
+    margin-bottom: 1.5em;
+}
+
+.page__content h2, .page__content h3, .page__content h4 {
+    margin-top: 2em;
+    margin-bottom: 0.75em;
+    color: var(--global-text-color);
+}
+
+.page__content a:not(.btn), 
+.archive a:not(.btn), 
+.archive__item a:not(.btn) {
+    color: var(--global-link-color);
+    text-decoration: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    background-image: linear-gradient(var(--global-link-color), var(--global-link-color));
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s ease;
+}
+
+.page__content a:not(.btn):hover, 
+.archive a:not(.btn):hover, 
+.archive__item a:not(.btn):hover {
+    background-size: 100% 2px;
+    text-decoration: none !important;
+}
+
+.archive__item-title {
+    text-decoration: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+.page__content ul, .page__content ol {
+    margin-bottom: 1.5em;
+    padding-left: 1.5em;
+}
+
+.page__content li {
+    margin-bottom: 0.5em;
+}
+
+.page__content blockquote {
+    margin: 2em 0;
+    padding: 1em 1.5em;
+    border-left: 4px solid var(--global-link-color);
+    background: rgba(79, 70, 229, 0.03);
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+    color: var(--global-text-color-light);
+}
+
+.page__content img {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    max-width: 100%;
+    height: auto;
+    margin: 1.5em 0;
+}
+
+.page__content code {
+    background: var(--global-code-background-color);
+    color: var(--global-code-text-color);
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+.page__content pre {
+    background: var(--global-code-background-color);
+    padding: 1.5em;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin-bottom: 1.5em;
+    box-shadow: inset 0 0 0 1px var(--global-border-color);
+}
+
+.page__content pre code {
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    color: var(--global-code-text-color);
+}
+
+
+
+/* About Page Specific Layouts */
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+.timeline-item {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.timeline-date {
+    min-width: 100px;
+    color: var(--global-text-color-light);
+    font-weight: 500;
+    font-size: 0.9em;
+    padding-top: 4px;
+}
+
+.timeline-content {
+    flex-grow: 1;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .project-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.project-card-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-card-image {
+    transform: scale(1.03);
+}
+
+.project-card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+}
+
+.project-card-excerpt {
+    color: var(--global-text-color-light);
+    font-size: 0.95rem;
+    flex-grow: 1;
+}

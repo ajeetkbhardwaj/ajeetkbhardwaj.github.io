@@ -3,6 +3,14 @@
 <a href="/sitemap/">Sitemap</a>
 
 <!-- Support for MatJax -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
+  };
+</script>
 <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
 
@@ -16,4 +24,67 @@
     await mermaid.run({querySelector:'code.language-mermaid'});
 </script>
 
+<!-- Dynamic Wave Background -->
+<script src="{{ '/assets/js/waves.js' | relative_url }}"></script>
+
 <!-- end custom footer snippets -->
+
+<!-- Copy to Clipboard Button for Code Blocks -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var codeBlocks = document.querySelectorAll('div.highlighter-rouge, figure.highlight');
+    
+    codeBlocks.forEach(function(block) {
+      // Create the copy button
+      var button = document.createElement('button');
+      button.className = 'copy-code-btn';
+      button.innerHTML = '<i class="fa fa-copy"></i> Copy';
+      
+      // Append button to the block
+      block.appendChild(button);
+      
+      // Click event listener
+      button.addEventListener('click', function() {
+        // Find the code element inside the block
+        var code = block.querySelector('code');
+        if (!code) return;
+        
+        var textToCopy = code.textContent || code.innerText;
+        
+        // Fallback for non-HTTPS local testing where navigator.clipboard might be missing
+        if (!navigator.clipboard) {
+          var textArea = document.createElement('textarea');
+          textArea.value = textToCopy;
+          textArea.style.position = 'fixed'; // Avoid scrolling to bottom
+          document.body.appendChild(textArea);
+          textArea.focus();
+          textArea.select();
+          try {
+            document.execCommand('copy');
+            success();
+          } catch (err) {
+            console.error('Fallback: Oops, unable to copy', err);
+          }
+          document.body.removeChild(textArea);
+          return;
+        }
+        
+        // Modern approach
+        navigator.clipboard.writeText(textToCopy).then(success).catch(function(err) {
+          console.error('Failed to copy text: ', err);
+        });
+
+        function success() {
+          button.innerHTML = '<i class="fa fa-check"></i> Copied!';
+          button.classList.add('copied');
+          
+          // Revert button text after 2 seconds
+          setTimeout(function() {
+            button.innerHTML = '<i class="fa fa-copy"></i> Copy';
+            button.classList.remove('copied');
+          }, 2000);
+        }
+      });
+    });
+  });
+</script>

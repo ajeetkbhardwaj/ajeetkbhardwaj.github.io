@@ -17,9 +17,10 @@ $success-color              : #62c462;
 $warning-color              : #f89406;
 
 /* Other basic settings for the template */
-$border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
-$global-transition          : all 0.2s ease-in-out;
+$border-radius              : 12px;
+$box-shadow                 : 0 10px 20px rgba(0, 0, 0, 0.05), 0 4px 6px rgba(0, 0, 0, 0.03);
+$box-shadow-hover           : 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+$global-transition          : all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 $masthead-height            : 70px;
 $navicon-width              : 28px;
 $navicon-height             : 4px;
@@ -29,19 +30,25 @@ $sidebar-screen-min-width   : 1024px;
 /* Default light theme for the site */
 :root {
     --global-base-color                 : #{$gray};
-    --global-bg-color                   : #fff;
-    --global-footer-bg-color            : #f2f3f3;
-    --global-border-color               : #{$lighter-gray};
-    --global-dark-border-color          : #bdc1c4;
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
-    --global-link-color                 : #52adc8;
-    --global-link-color-hover           : mix(#000, #2f7f93, 25%);
-    --global-link-color-visited         : mix(#fff, #2f7f93, 25%);  
-    --global-masthead-link-color        : #{$dark-gray};
-    --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);    
-    --global-text-color                 : #{$dark-gray};
-    --global-text-color-light           : #{$light-gray};
-    --global-thead-color                : #{$lighter-gray};
+    --global-bg-color                   : #f9fafb; /* Modern off-white */
+    --global-footer-bg-color            : #ffffff;
+    --global-border-color               : #e5e7eb;
+    --global-dark-border-color          : #d1d5db;
+    --global-code-background-color      : #f3f4f6;
+    --global-code-text-color            : #1f2937;
+    --global-fig-caption-color          : #6b7280;
+    --global-link-color                 : #4f46e5; /* Indigo */
+    --global-link-color-hover           : #4338ca;
+    --global-link-color-visited         : #4f46e5;  
+    --global-masthead-link-color        : #374151;
+    --global-masthead-link-color-hover  : #4f46e5;    
+    --global-text-color                 : #111827;
+    --global-text-color-light           : #4b5563;
+    --global-thead-color                : #f9fafb;
+    
+    /* Modern UI Variables */
+    --glass-bg                        : rgba(255, 255, 255, 0.7);
+    --glass-border                    : rgba(255, 255, 255, 0.3);
+    --gradient-bg                     : linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+    --gradient-primary                : linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
 }
