@@ -1,10 +1,7 @@
 ---
-permalink: /
-title: "Ajeet Kumar"
+permalink: /about/
+title: "About"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
 I am **currently looking for Job**, was a Research Intern and Project Assistant at the Cloud Computing Lab and HIPC Lab, IIT Delhi under [Prof. Abhilash Jindal](https://abhilash-jindal.com/), where i had focused on building and evaluating LLM-based tools called [Speculator](https://github.com/ajeetkbhardwaj/Speculator) and design multi-agentic systems [Lean4Agent](https://github.com/ajeetkbhardwaj/Lean4Agent)
@@ -113,5 +110,3 @@ My academic journey began with a B.Sc (Hons) in Applied Mathematics from Jamia M
 <div style="text-align: right; margin-top: 16px; margin-bottom: 32px;">
   <a href="/publications/" class="btn--modern">View all Publications &rarr;</a>
 </div>
-
-

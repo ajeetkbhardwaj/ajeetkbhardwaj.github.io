@@ -13,7 +13,20 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
-  {% include sidebar.html %}
+  {% if page.author_profile %}
+    {% include sidebar.html %}
+  {% endif %}
+
+  <style>
+    .archive {
+      max-width: 1200px; /* Adjust as needed for your desired width */
+      margin: 0 auto;
+      padding: 0 1rem; /* Add some horizontal padding */
+    }
+    .archive .page__title {
+      text-align: center;
+    }
+  </style>
 
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}

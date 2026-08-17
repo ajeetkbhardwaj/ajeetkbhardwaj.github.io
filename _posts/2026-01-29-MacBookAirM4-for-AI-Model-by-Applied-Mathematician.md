@@ -2,7 +2,7 @@
 title: 'A Case Study of MacBook Air M4(16/256GB) for AI Model Production by Applied Mathematician'
 date: 2026-01-29
 permalink: /posts/2026/01/MacBookAirM4-for-AI-Model-by-Applied-Mathematician/
-tags:
+categories:
   - AI Hardwares
   - Artificial Intelligence
   - Applied Mathematics

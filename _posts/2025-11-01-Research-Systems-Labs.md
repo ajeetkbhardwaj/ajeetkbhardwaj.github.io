@@ -2,7 +2,7 @@
 title: ''
 date: 2012-08-14
 permalink: /posts/2015/10/researcher-info/
-tags:
+categories:
   - Research
   - Information
   - Passion

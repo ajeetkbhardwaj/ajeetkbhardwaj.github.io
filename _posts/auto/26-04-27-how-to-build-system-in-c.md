@@ -2,12 +2,14 @@
 title: 'How to Build a Build System in C'
 date: 2026-04-27
 permalink: /posts/2026/04/27-how-to-build-a-build-system-in-c/
-tags:
+
+categories:
   - Systems
   - Build-Systems
   - Projects
   - Automation
   - C Programming
+toc: true
 ---
 > **"Don't use Make. Use C."** — A philosophy for engineers who want full control.
 

@@ -2,11 +2,12 @@
 title: 'Automated LaTeX Research Writing Environment'
 date: 2026-04-27
 permalink: /posts/2026/04/27-automated-latex-research-writing-environment/
-tags:
+categories:
   - Research
   - Collaborations
   - Writing
   - Systems
+toc: true
 ---
 >  **"Write-Once, Compile-Anywhere"** — A containerized academic paper workflow using Docker, VSCode, and TeX Live.
 

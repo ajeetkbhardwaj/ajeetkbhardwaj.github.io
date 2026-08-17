@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{% assign posts_by_year = page.posts | group_by_exp:"post", "post.date | date: '%Y'" | sort: "name" | reverse %}
-
 <style>
   .archive-container {
     display: flex;
@@ -17,7 +15,7 @@ layout: default
     flex: 3;
     min-width: 0;
   }
-  .archive-main .page__title {
+  .archive-main h1 { /* Target the h1 directly as it doesn't have page__title class */
     text-align: center;
   }
 
@@ -86,7 +84,8 @@ layout: default
 
 <div class="archive-container">
   <div class="archive-main">
-    <h1 class="page__title">{{ page.title }}</h1>
+    <h1>{{ page.title }}</h1>
+    {% assign posts_by_year = site.posts | group_by_exp:"post", "post.date | date: '%Y'" | sort: "name" | reverse %}
     {% for year in posts_by_year %}
       <section id="year-{{ year.name }}" class="archive-year-group">
         <h2 class="archive-year-header">{{ year.name }}</h2>

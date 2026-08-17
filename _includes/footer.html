@@ -1,3 +1,145 @@
-<div class="page__footer-copyright" style="text-align: center; color: var(--global-text-color-light); font-size: 0.85em; margin-top: 2rem;">
-  Site last updated {{ "now" | date: '%Y-%m-%d' }}, &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>.
-</div>
+<style>
+  /* Sticky Footer Fix */
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  .site-content-wrapper {
+    flex: 1;
+  }
+
+  .page__footer footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .page__footer {
+    background-color: transparent; /* Make footer background transparent */
+    border-top: none; /* Remove any default top border */
+    padding-top: 2rem; /* Adjust padding to blend with page content */
+    padding-bottom: 2rem;
+  }
+
+  .page__footer-follow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem; /* Space between categories */
+    padding: 0;
+  }
+
+  .footer-category {
+    min-width: 180px; /* Minimum width before wrapping */
+    margin-bottom: 1rem; /* Space between categories when stacked */
+  }
+
+  .footer-category h4 {
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+    font-size: 1.1em;
+    color: var(--global-text-color); /* Use theme's primary text color */
+    border-bottom: 1px solid var(--global-border-color); /* Subtle separator */
+    padding-bottom: 0.4rem;
+  }
+
+  .footer-category ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-category ul li {
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-category ul li a {
+    text-decoration: none;
+    color: var(--global-text-color-light); /* Lighter text for links */
+    transition: color 0.2s ease-in-out;
+  }
+
+  .footer-category ul li a:hover {
+    color: var(--global-theme-color); /* Highlight on hover */
+    text-decoration: underline;
+  }
+
+  .page__footer-copyright {
+    font-size: 0.8em;
+    color: var(--global-text-color-light);
+    flex-shrink: 0; /* Prevent copyright from shrinking */
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .page__footer footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .page__footer-follow {
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+    }
+    .footer-category {
+      min-width: 90%; /* Take more width on smaller screens */
+      text-align: center; /* Center align text for better readability */
+    }
+    .footer-category h4 {
+      border-bottom: none; /* Remove border when stacked */
+      padding-bottom: 0;
+    }
+  }
+</style>
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.</div>
+<div class="page__footer-follow">
+    <div class="footer-category">
+        <h4>Contact</h4>
+        <ul>
+          {% if site.author.email %}
+            <li><a href="mailto:{{ site.author.email }}" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+          {% endif %}
+          {% if site.author.location %}
+            <li><i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> {{ site.author.location }}</li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-category">
+        <h4>Social</h4>
+        <ul>
+          {% if site.author.linkedin %}
+            <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+          {% endif %}
+          {% if site.author.twitter %}
+            <li><a href="https://twitter.com/{{ site.author.twitter }}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-category">
+        <h4>Research</h4>
+        <ul>
+          {% if site.author.googlescholar %}
+            <li><a href="{{ site.author.googlescholar }}" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-category">
+        <h4>Resources</h4>
+        <ul>
+          {% if site.author.github %}
+            <li><a href="https://github.com/{{ site.author.github }}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          {% endif %}
+          {% if site.author.youtube %}
+            <li><a href="https://youtube.com/{{ site.author.youtube }}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> YouTube</a></li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>

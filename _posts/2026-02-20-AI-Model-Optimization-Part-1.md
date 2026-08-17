@@ -2,7 +2,7 @@
 title: 'AI Model Optimization Part-1 by Applied Mathematician'
 date: 2026-02-20
 permalink: /posts/2026/01/AI-Model-Optimization-Part-1/
-tags:
+categories:
   - AI Hardwares
   - Artificial Intelligence
   - Applied Mathematics

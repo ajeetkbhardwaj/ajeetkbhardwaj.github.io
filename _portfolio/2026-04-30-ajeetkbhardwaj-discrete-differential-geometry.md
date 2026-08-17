@@ -75,15 +75,6 @@ pytest tests/ -v
 
 ---
 
-<!-- AUTO-TEAM-START -->
-## 👥 Team Roster for `ajeetkbhardwaj/discrete-differential-geometry`
-
-* **👑 Team Leader:**
-  * <img src='https://avatars.githubusercontent.com/ajeetkbhardwaj?v=4&s=50' width='25' style='border-radius:50%; vertical-align:middle'/> **ajeetkbhardwaj** (Active Commits)
-* **👨‍💻 Team Members:**
-  * <img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png?s=50' width='25' style='border-radius:50%; vertical-align:middle'/> **Open-Source Contributors** (Active Commits)
-<!-- AUTO-TEAM-END -->
-
 ---
 ## 📅 Weekly Plan & Updates
 *Write your weekly plan, problems tackled, and achievements here. The automated script will never overwrite this text!*

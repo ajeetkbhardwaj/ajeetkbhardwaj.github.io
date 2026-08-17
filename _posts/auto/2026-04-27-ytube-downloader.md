@@ -2,11 +2,12 @@
 title: 'YTube Downloader — A Native C Command-Line Tool'
 date: 2026-04-27
 permalink: /posts/2026/04/27-ytube-downloader-a-native-c-command-line-tool/
-tags:
+categories:
   - C Programming
   - YouTube
   - Video Downloader
   - Systems
+toc: true
 ---
 > **No Python. No Node. No shell scripts.** Just C, `fork()`, and `execvp()` calling `yt-dlp` at full speed.
 

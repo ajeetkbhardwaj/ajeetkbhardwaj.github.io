@@ -20,9 +20,8 @@ repository               : "ajeetkbhardwaj/ajeetkbhardwaj.github.io/"
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
-author:
-  # Biographic information
-  avatar           : "aj1255.jpg"
+author: # Biographic information
+  avatar           : "Profile2.png"
   name             : "Ajeet Kumar"
   pronouns         : # example: "she/her"  
   bio              : "Applied Mathematician with Specialization in Full Stack Machine Learning and Data Science"
@@ -92,9 +91,19 @@ breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "giscus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "giscus", "custom"
+  giscus:
+    repo                 : "ajeetkbhardwaj/ajeetkbhardwaj.github.io" # The GitHub repository to store comments, e.g., "owner/repo"
+    repo_id              : "R_kgDOMO_ID" # The ID of the GitHub repository (YOU NEED TO REPLACE THIS)
+    category             : "Comments" # The name of the discussion category (e.g., "Comments" or "General")
+    category_id          : "DIC_kwDOMO_ID" # The ID of the discussion category (YOU NEED TO REPLACE THIS)
+    mapping              : "pathname" # How to map Discussions to pages: "pathname" (default), "url", "title", "og:title"
+    reactions_enabled    : 1 # 0 (disabled), 1 (enabled)
+    emit_metadata        : 0 # 0 (disabled), 1 (enabled)
+    input_position       : "bottom" # "top", "bottom"
+    theme                : "preferred_color_scheme" # "light", "dark", "preferred_color_scheme", "light_high_contrast", "dark_high_contrast", "dark_dimmed", "transparent_dark", "custom"
+    lang                 : "en" # Language for giscus
   disqus:
     shortname            :
   discourse:
@@ -225,9 +234,6 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -238,25 +244,25 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
-      comments: true
+      comments: true # Enable comments for posts
       share: true
-      related: true
+      related: false
   # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
   # _teaching
   - scope:
       path: ""
       type: teaching
     values:
       layout: single
-      author_profile: true
+      author_profile: false # Assuming teaching pages also don't need sidebar
       share: true
       comments: true
   # _publications
@@ -265,8 +271,8 @@ defaults:
       type: publications
     values:
       layout: single
-      author_profile: true
-      share: true
+      author_profile: false
+      share: true # Enable comments for publications
       comments: true
   # _portfolio
   - scope:
@@ -274,17 +280,9 @@ defaults:
       type: portfolio
     values:
       layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+      author_profile: false
+      share: true # Enable comments for portfolio items
+      comments: true
 
 
 # Sass/SCSS

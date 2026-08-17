@@ -1,0 +1,77 @@
+---
+layout: default
+---
+<style>
+  .home-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 4rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 70vh;
+  }
+
+  @media (max-width: 600px) {
+    .home-hero {
+      flex-direction: column;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+  }
+
+  .home-hero__portrait .avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  @media (max-width: 600px) {
+    .home-hero__portrait .avatar {
+      width: 120px;
+      height: 120px;
+    }
+  }
+
+  .home-hero__intro {
+    text-align: left;
+  }
+  
+  @media (max-width: 600px) {
+    .home-hero__intro {
+      text-align: center;
+    }
+  }
+
+  .home-hero__intro h1 {
+    font-size: 2.2em;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .home-hero__intro .lead {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+</style>
+
+<div class="initial-content">
+  <div class="home-hero">
+    <div class="home-hero__portrait">
+      <img src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" alt="{{ site.author.name }}" class="avatar">
+    </div>
+    <div class="home-hero__intro">
+      <h1>Hi, I'm {{ site.author.name | split: " " | first }}.</h1>
+      <p class="lead">
+        Applied Mathematician<br>
+        working on mathematical modelling,<br>
+        computation, and education.
+      </p>
+    </div>
+  </div>
+</div>

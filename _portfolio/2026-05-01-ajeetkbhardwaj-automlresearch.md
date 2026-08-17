@@ -59,26 +59,3 @@ For high-throughput research, AutoResearch supports a fully autonomous "Autopilo
 | **Learning** | Grid/Bayesian search | Semantic memory (RAG) of past results |
 | **Device Support** | Varies by tool | Native MLX, JAX, CUDA, MPS |
 | **Integration** | Limited to configs | Direct integration with Claude Code/GPT |
-
----
-
-<!-- AUTO-TEAM-START -->
-## 👥 Team Roster for `ajeetkbhardwaj/automlresearch`
-
-* **👑 Team Leader:**
-  * <img src='https://avatars.githubusercontent.com/ajeetkbhardwaj?v=4&s=50' width='25' style='border-radius:50%; vertical-align:middle'/> **ajeetkbhardwaj** (Active Commits)
-* **👨‍💻 Team Members:**
-  * <img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png?s=50' width='25' style='border-radius:50%; vertical-align:middle'/> **Open-Source Contributors** (Active Commits)
-<!-- AUTO-TEAM-END -->
-
----
-## 📅 Weekly Plan & Updates
-
-### 👑 Team Leader Update (Ajeet Kumar)
-* **Solved:** Configured `autopilot: true` in the `autoresearch.yaml` file so the framework can automatically drive the agents unattended.
-* **Completed:** Implemented the long-term semantic memory (RAG) using ChromaDB, allowing the agents to reference previous runs.
-* **Next Steps:** Optimize the SQL-backed metadata management for faster Git-based experiment versioning.
-
-### 👨‍💻 Team Member Updates
-* **Solved:** Fixed the Weights & Biases (W&B) integration for real-time metric tracking.
-* **Working on:** Parallelizing the research environments across clusters using Ray.
