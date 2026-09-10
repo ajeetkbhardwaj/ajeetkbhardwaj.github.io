@@ -69,7 +69,6 @@ streamlit run app.py
 
 ---
 
-
 ---
 
 ## 📅 Weekly Plan & Updates
@@ -86,3 +85,4 @@ streamlit run app.py
 
 * **Solved:** [What did the team solve?]
 * **Working on:** [What is the team currently working on?]
+*

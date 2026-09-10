@@ -3,6 +3,13 @@ _site/
 .sass-cache/
 
 # Ignore the directory for local files during development
+_posts/Magic-Square.md
+_posts/research-labs.md
+_posts/mcc/
+_posts/lsm/
+_arough/
+_posts/eye-window
+# Ignore the directory for local files during development
 local/
 
 # Ignore the Gemfile that is generated
