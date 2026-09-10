@@ -8,8 +8,7 @@ tags:
   - Job
   - Nature
 ---
-[![Project Screen Cap](/images/blogs/ai-for-engineers/ai-for-engineers.jpeg "Click to view on GitHub")](https://github.com/ajeetkbhardwaj/AI-for-Engineers)
-
+ 
 **Abstract**
 We are going to study
 
