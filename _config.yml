@@ -95,9 +95,9 @@ comments:
   provider               : "giscus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "giscus", "custom"
   giscus:
     repo                 : "ajeetkbhardwaj/ajeetkbhardwaj.github.io" # The GitHub repository to store comments, e.g., "owner/repo"
-    repo_id              : "R_kgDOMO_ID" # The ID of the GitHub repository (YOU NEED TO REPLACE THIS)
-    category             : "Comments" # The name of the discussion category (e.g., "Comments" or "General")
-    category_id          : "DIC_kwDOMO_ID" # The ID of the discussion category (YOU NEED TO REPLACE THIS)
+    repo_id              : "R_kgDOPLS79g" # The ID of the GitHub repository
+    category             : "Announcements" # The name of the discussion category
+    category_id          : "DIC_kwDOPLS79s4DDlyM" # The ID of the discussion category
     mapping              : "pathname" # How to map Discussions to pages: "pathname" (default), "url", "title", "og:title"
     reactions_enabled    : 1 # 0 (disabled), 1 (enabled)
     emit_metadata        : 0 # 0 (disabled), 1 (enabled)

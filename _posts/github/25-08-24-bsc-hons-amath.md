@@ -1,3 +1,4 @@
+
 ---
 title: 'AI for Engineers'
 date: 2025-08-09
@@ -9,24 +10,24 @@ tags:
 ---
 [![Project Screen Cap](/images/blogs/ai-for-engineers/ai-for-engineers.jpeg "Click to view on GitHub")](https://github.com/ajeetkbhardwaj/AI-for-Engineers)
 
-
 **Abstract**
 We are going to study
+
 1. Model Context Protocol - Theory, Design and Practices
 2. How to use the MCP SDKs and Frameworks to build AI Systems?
 3. How to create own custom MCP server and client ?
-How MCP works ?
-Concepts, Architecture and Components of MCP 
-What are the use cases of MCP ?
+   How MCP works ?
+   Concepts, Architecture and Components of MCP
+   What are the use cases of MCP ?
 
 How to build MCP based applications and deploy it using huggingface services ?
 
 How to build AI Systems that uses external data and tools using MCP standards ?
 
-Must have 
+Must have
 Understanding of LLM and AI concepts
 Software developement principles
-Application Programming Interface 
+Application Programming Interface
 
 How to build LLM Apps with post-training and agentic approaches ?
 
@@ -38,6 +39,7 @@ MCP descibed as a standard like USB-C/HTTP AI applications by people because USB
 What role MCP plays in AI ecosystems ?
 
 MCP benifits the entire AI ecosystems
+
 1. Users - Enjoy consistent experiance across AI apps
 2. Developers - Easy integration with growing ecosystems of tools and data sources.
 3. Tools and Data Providers - They needed to only create MCP server that can works with multiple AI applications and Developers only needed to write the MCP client to access the tools and data sources from MCP server.
@@ -58,12 +60,14 @@ Solution with MCP - It transforms the MxN integration problem into an M + N inte
 
 What are the key components in MCP ?
 MCP has a client-server type relationship similar to the HTTP has.
-1. Host - 
-2. Client - 
-3. Server - 
+
+1. Host -
+2. Client -
+3. Server -
 
 What are the key benifits and goals of the MCP ?
-Key benifits 
+Key benifits
+
 1. Standardization
 2. Enhanced AI capabilities
 3. Interoperability
@@ -72,5 +76,6 @@ How MCP works ?
 Example
 
 ## References
+
 0. [LLM Course by HuggingFace](https://huggingface.co/learn/llm-course/)
 1. [AI Agents Course by HuggingFace](https://huggingface.co/learn/agents-course/)
