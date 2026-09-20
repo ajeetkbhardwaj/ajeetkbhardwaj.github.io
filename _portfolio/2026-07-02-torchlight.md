@@ -7,7 +7,7 @@ url: "https://github.com/ajeetkbhardwaj/torchlight"
 category: "Deep Learning Frameworks"
 ---
 
-![img](../images/projects/torchlight/image.png)
+![img](/images/projects/torchlight/image.png)
 
 
 The best way to understand deep learning is to build it. Not a wrapper around

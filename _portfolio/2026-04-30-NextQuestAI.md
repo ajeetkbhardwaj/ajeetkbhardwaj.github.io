@@ -1,6 +1,6 @@
 
 title: "NextQuestAI: Deep Research Multi-Agent System"
-excerpt: "NextQuestAI is a high-performance, multi-agent research orchestrator powered by LangGraph and NVIDIA NIM.<br/><img src='/images/projects/NextQuestAI/1778063175230.png' alt='NextQuestAI Architecture'/>"
+excerpt: "NextQuestAI is a high-performance, multi-agent research orchestrator powered by LangGraph and NVIDIA NIM.<br/><img src='../images/projects/NextQuestAI/1778063175230.png' alt='NextQuestAI Architecture'/>"
 collection: portfolio
 date: 2026-04-30
 url: "https://github.com/ajeetkbhardwaj/NextQuestAI"
