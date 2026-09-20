@@ -1,12 +1,11 @@
 
----
 title: "AutoResearch: Autonomous ML Research Framework"
 collection: portfolio
 date: 2026-05-01
 excerpt: "Autonomous machine learning research framework for AI agents"
 url: "https://github.com/ajeetkbhardwaj/automlresearch"
 category: "AI Systems"
----
+
 ## 🔬 AutoResearch Overview
 
 **AutoResearch** is an agents and device-agnostic autonomous machine learning research framework that enables AI agents to independently conduct end-to-end experiments. Unlike traditional AutoML tools, AutoResearch provides a complete research loop where agents can modify code, run experiments, evaluate results, and learn from a persistent semantic memory.
