@@ -1,13 +1,14 @@
 ---
 title: "Torchlight - Deep Learning Framework from Scratch"
-excerpt: " <br/><img src='image/torchlight/framework-architecture.png' alt='Torchlight Core Architecture'/>"
+excerpt: " <br/><img src='../images/projects/torchlight/image.png' alt='Torchlight Core Architecture'/>"
 collection: portfolio
 date: 2026-07-02
 url: "https://github.com/ajeetkbhardwaj/torchlight"
 category: "Deep Learning Frameworks"
 ---
 
-# Torchlight: A Deep Learning Framework Built From Scratch
+![img](../images/projects/torchlight/image.png)
+
 
 The best way to understand deep learning is to build it. Not a wrapper around
 TensorFlow, not a thin PyTorch clone — a real framework, where you can read
