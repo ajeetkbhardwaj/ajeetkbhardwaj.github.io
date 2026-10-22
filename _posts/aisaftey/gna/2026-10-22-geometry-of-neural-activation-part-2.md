@@ -9,7 +9,6 @@ categories:
   - Sparse Autoencoders
   - Neural Networks
 ---
-
 # Geometry of Neural Activations — Part 2
 
 ## Sparse Autoencoders and Superposition
@@ -53,14 +52,16 @@ categories:
    - 9.3 Simulation, detection, fuzzing
    - 9.4 A label is a hypothesis
 10. **Superposition: A Mathematical Model**
-   - 10.1 The regime
-   - 10.2 What superposition pays: interference
-   - 10.3 What the Part 1 picture gives, and what it does not
-   - 10.4 Toy models: importance, frequency, and the frontier
-   - 10.5 Worked example: Gemma 2 2B
-   - 10.6 What SAEs establish — and what they do not
+
+- 10.1 The regime
+- 10.2 What superposition pays: interference
+- 10.3 What the Part 1 picture gives, and what it does not
+- 10.4 Toy models: importance, frequency, and the frontier
+- 10.5 Worked example: Gemma 2 2B
+- 10.6 What SAEs establish — and what they do not
+
 11. **Part 2 Takeaways**
-**References for Part 2**
+    **References for Part 2**
 
 ---
 
@@ -90,12 +91,12 @@ $$
 
 The unknowns are now **both** halves of the equation:
 
-| | Compressed sensing | Interpretability |
-| --- | --- | --- |
-| what is observed | $b=Aa\in\mathbb R^d$ | $x\in\mathbb R^d$ |
-| dictionary | known, random | **unknown**, learned |
-| code | to be recovered | **unknown**, learned |
-| model of data | none needed | the model's activations |
+|                  | Compressed sensing     | Interpretability           |
+| ---------------- | ---------------------- | -------------------------- |
+| what is observed | $b=Aa\in\mathbb R^d$ | $x\in\mathbb R^d$        |
+| dictionary       | known, random          | **unknown**, learned |
+| code             | to be recovered        | **unknown**, learned |
+| model of data    | none needed            | the model's activations    |
 
 So the task is **sparse dictionary learning**: learn an overcomplete dictionary $W_{\mathrm{dec}}\in\mathbb R^{d\times N}$ and a sparse code for every input, simultaneously, from data alone.
 
@@ -403,13 +404,13 @@ So the first $m_1$ features must reconstruct $x$ on their own, the first $m_2$ f
 
 Gated SAEs add a learned gate that multiplicatively modulates the encoder output, so the sparsity penalty applies to the *gated* code while the reconstruction uses the ungated one. This decouples "which features are allowed to fire" from "how strongly they fire", and gives better reconstruction at a given $L_0$.
 
-| Variant | Sparsity enforced by | Knob | Code shape |
-| --- | --- | --- | --- |
-| ReLU + $\ell_1$ | penalty | $\lambda$ | variable $\ell_0$, soft |
-| TopK | architecture | $k$ | exactly $k$ (hard) |
-| JumpReLU | learned thresholds + expected $\ell_0$ | budget | thresholded, with per-feature $\theta_i$ |
-| Matryoshka | prefix reconstruction | prefix set | nested, ordered by importance |
-| Gated | gate + penalty | $\lambda$, budget | gated magnitude |
+| Variant          | Sparsity enforced by                    | Knob                | Code shape                                |
+| ---------------- | --------------------------------------- | ------------------- | ----------------------------------------- |
+| ReLU +$\ell_1$ | penalty                                 | $\lambda$         | variable$\ell_0$, soft                  |
+| TopK             | architecture                            | $k$               | exactly$k$ (hard)                       |
+| JumpReLU         | learned thresholds + expected$\ell_0$ | budget              | thresholded, with per-feature$\theta_i$ |
+| Matryoshka       | prefix reconstruction                   | prefix set          | nested, ordered by importance             |
+| Gated            | gate + penalty                          | $\lambda$, budget | gated magnitude                           |
 
 ---
 
