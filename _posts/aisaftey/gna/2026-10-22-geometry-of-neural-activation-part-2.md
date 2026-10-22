@@ -758,3 +758,28 @@ The failure modes, concretely:
 ---
 
 *Next: **Part 3 — Steering, Linear Structure, and Feature Manifolds.** We take a feature and pull on it: intervention, clamping, alignment applications, the linear representation hypothesis, and the nonlinear structure that a sparse linear dictionary cannot capture.*
+
+---
+
+## How to cite this article
+
+**BibTeX.**
+
+```bibtex
+@misc{kumar2026geometry2,
+  author       = {Kumar, Ajeet},
+  title        = {Geometry of Neural Activations, Part 2: Sparse Autoencoders and Superposition},
+  year         = {2026},
+  orcid        = {\url{https://orcid.org/0009-0001-6494-4217}},
+  howpublished = {\url{https://ajeetkbhardwaj.github.io/posts/2026/10/geometry-of-neural-activation-part-2/}},
+  note         = {Part 2 of Geometry of Neural Activations}
+}
+```
+
+---
+
+<div class="post-license" markdown="1">
+[![Creative Commons BY 4.0](/images/ccby.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+*© 2026 Ajeet Kumar. This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Credit must be given to the creator.*
+</div>

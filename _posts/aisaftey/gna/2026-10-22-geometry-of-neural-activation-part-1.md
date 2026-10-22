@@ -969,3 +969,28 @@ $$
 ---
 
 *Next: **Part 2 — Sparse Autoencoders and Superposition.** We reverse the compressed-sensing problem: from an observed activation, learn the overcomplete dictionary and the sparse code simultaneously, and ask what the resulting decomposition does and does not prove.*
+
+---
+
+## How to cite this article
+
+**BibTeX.**
+
+```bibtex
+@misc{kumar2026geometry1,
+  author       = {Kumar, Ajeet},
+  title        = {Geometry of Neural Activations, Part 1: High-Dimensional Geometry and Compressed Sensing},
+  year         = {2026},
+  orcid        = {\url{https://orcid.org/0009-0001-6494-4217}},
+  howpublished = {\url{https://ajeetkbhardwaj.github.io/posts/2026/10/geometry-of-neural-activation-part-1/}},
+  note         = {Part 1 of Geometry of Neural Activations}
+}
+```
+
+---
+
+<div class="post-license" markdown="1">
+[![Creative Commons BY 4.0](/images/ccby.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+*© 2026 Ajeet Kumar. This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Credit must be given to the creator.*
+</div>
