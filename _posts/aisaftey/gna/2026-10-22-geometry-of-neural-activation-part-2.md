@@ -9,11 +9,8 @@ categories:
   - Sparse Autoencoders
   - Neural Networks
 ---
-# Geometry of Neural Activations — Part 2
-
-## Sparse Autoencoders and Superposition
-
----
+ 
+ 
 
 > **Part 2 of 3.** Part 1 established the geometry: in $\mathbb R^d$ there is exponentially much room for directions, and sparsity is what makes a compressed code recoverable. But Part 1 assumed a *known*, *random* dictionary. In a real model we observe $x\in\mathbb R^d$ and must learn the dictionary *and* the code simultaneously. This part is about that reversal, the tool it produces (the sparse autoencoder), and the mathematical picture that tool reveals (superposition).
 

@@ -10,13 +10,6 @@ categories:
   - High-Dimensional Geometry
 ---
 
-# Geometry of Neural Activations — Part 1
-
-## High-Dimensional Geometry and Compressed Sensing
-
----
-
-> **This is Part 1 of a three-part series.**
 >
 > | Part        | Title                                                 | Core question                                                                                      |
 > | ----------- | ----------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
