@@ -7,7 +7,6 @@ categories:
   - Information
   - Passion
 ---
-
 This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool.
 
 ## Research Labs in India
@@ -15,6 +14,7 @@ This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum
 ### IITs (Indian Institutes of Technology)
 
 #### IIT Bombay
+
 * [ ] [Centre for Technology Innovation (CTI)](https://www.tihiitb.org/)
 * [ ] [SINE - Society for Innovation and Entrepreneurship](https://sineiitb.org/)
 * [ ] [IRCC - Industrial Research and Consultancy Centre](https://www.ircc.iitb.ac.in/)
@@ -26,6 +26,7 @@ This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum
 * [ ] [Advanced Research Labs](https://www.iitb.ac.in/advanced-research-labs)
 
 #### IIT Delhi
+
 * [ ] [Centre for Applied Research in Electronics (CARE)](https://care.iitd.ac.in/)
 * [ ] [Centre for Atmospheric Sciences (CAS)](https://cas.iitd.ac.in/)
 * [ ] [Centre for Automotive Research and Tribology (CART)](https://cart.iitd.ac.in/)
@@ -44,6 +45,7 @@ This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum
 * [ ] [FITT - Foundation for Innovation and Technology Transfer](https://fitt-iitd.in/)
 
 #### IIT Madras
+
 * [ ] [Indo-German Centre for Sustainability](https://www.iitm.ac.in/research/national-research-centres/indo-german-centre-for-sustainability)
 * [ ] [National Cancer Tissue Biobank (NCTB)](https://www.iitm.ac.in/research/national-research-centres/national-cancer-tissue-biobank)
 * [ ] [National Centre for Combustion Research and Development (NCCRD)](https://www.iitm.ac.in/research/national-research-centres/national-centre-for-combustion-research-and-development)
@@ -58,10 +60,11 @@ This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum
 * [ ] [SynBioME: IIT Madras Biofoundry](https://biofoundry.iitm.ac.in)
 
 #### IIT Kanpur
+
 * [ ] [Advanced Centre for Material Science (ACMS)](https://www.iitk.ac.in/acms/)
 * [ ] [Advanced Centre for Electronic Systems (ACES)](https://www.iitk.ac.in/ee/)
 * [ ] [Advanced Imaging Centre](https://www.iitk.ac.in/imaging/)
-* [ ] [Centre for Environmental Science & Engineering](https://www.iitk.ac.in/cese/)
+* [ ] [Centre for Environmental Science &amp; Engineering](https://www.iitk.ac.in/cese/)
 * [ ] [Centre for Mechatronics](https://www.iitk.ac.in/robotics/)
 * [ ] [Centre for Lasers and Photonics](https://www.iitk.ac.in/celp/)
 * [ ] [Centre for Nanosciences](https://www.iitk.ac.in/nanoscience/)
@@ -74,13 +77,16 @@ This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum
 * [ ] [National Wind Tunnel Facility](https://www.iitk.ac.in/nwtf/)
 
 #### IIT Guwahati
+
 * [ ] [Advanced System Design Lab (ASDL)](https://sites.google.com/iitpkd.ac.in/asdl/home?authuser=0)
 
 #### IIT Kharagpur
+
 * [ ] [Centre for Research in Atmospheric Science](https://www.iitkgp.ac.in/)
 * [ ] [Advanced Manufacturing Technology Centre](https://www.iitkgp.ac.in/)
 
 ### IISc Bangalore (Indian Institute of Science)
+
 * [ ] [Centre for Scientific and Industrial Consultancy (CSIC)](https://csic.iisc.ac.in/)
 * [ ] [Thematic Research Clusters](https://www.iisc.ac.in/thematic-research-clusters/)
 * [ ] [Division of Biological Sciences](https://www.iisc.ac.in/academics/divisions/division-of-biological-sciences/)
@@ -90,6 +96,7 @@ This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum
 * [ ] [Centre for Interdisciplinary Sciences](https://www.iisc.ac.in/academics/divisions/division-of-interdisciplinary-research/)
 
 ### IMSc Chennai (Institute of Mathematical Sciences)
+
 * [ ] [Theoretical Physics](https://www.imsc.res.in/theoretical_physics)
 * [ ] [Mathematics](https://www.imsc.res.in/mathematics)
 * [ ] [Theoretical Computer Science](https://www.imsc.res.in/theoretical_computer_science)
@@ -97,6 +104,7 @@ This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum
 * [ ] [Faculty Directory](https://www.imsc.res.in/faculty-list)
 
 ### CMI (Chennai Mathematical Institute)
+
 * [ ] [CMI Official Website](https://www.cmi.ac.in/)
 * [ ] [Dr. F.C. Kohli Centre of Excellence](https://www.cmi.ac.in/activities/kohli-centre.php)
 * [ ] [Faculty/People](https://www.cmi.ac.in/people/)
@@ -104,6 +112,7 @@ This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum
 ### IISERs (Indian Institutes of Science Education and Research)
 
 #### IISER Pune
+
 * [ ] [Department of Biology](https://www.iiserpune.ac.in/research/department/biology)
 * [ ] [Department of Chemistry](https://www.iiserpune.ac.in/research/department/chemistry)
 * [ ] [Department of Data Science](https://www.iiserpune.ac.in/research/department/data-science)
@@ -113,24 +122,29 @@ This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum
 * [ ] [Research Centres and Initiatives](https://www.iiserpune.ac.in/research/research-centres-and-initiatives)
 
 #### IISER Kolkata
+
 * [ ] [Research Departments](https://www.iiserkol.ac.in/)
 * [ ] [Research Facilities](https://www.iiserkol.ac.in/)
 
 #### IISER Mohali
+
 * [ ] [Research Departments](https://www.iisermohali.ac.in/)
 * [ ] [Research Centres](https://www.iisermohali.ac.in/)
 
 #### IISER Bhopal
+
 * [ ] [Research Departments](https://www.iiserbhopal.ac.in/)
 * [ ] [Research Centres](https://www.iiserbhopal.ac.in/)
 
 #### IISER Thiruvananthapuram
+
 * [ ] [Research Departments](https://www.iisertvm.ac.in/)
 * [ ] [Research Facilities](https://www.iisertvm.ac.in/)
 
 ### IIITs (Indian Institutes of Information Technology)
 
 #### IIIT Hyderabad
+
 * [ ] [Kohli Center on Intelligent Systems (KCIS)](http://kcis.iiit.ac.in/)
 * [ ] [Signal Processing and Communication Research Center (SPCRC)](http://spcrc.iiit.ac.in/)
 * [ ] [Data Sciences and Analytics Center (DSAC)](http://dsac.iiit.ac.in/)
@@ -148,40 +162,50 @@ This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum
 * [ ] [Applied AI Research Centre (INAI)](https://inai.iiit.ac.in/)
 
 #### IIIT Delhi
+
 * [ ] [Research Centres](https://www.iiitd.ac.in/research)
 * [ ] [Center for Artificial Intelligence](https://cai.iiitd.ac.in/)
 * [ ] [Center for Data Science](https://cds.iiitd.ac.in/)
 
 #### IIIT Bangalore
+
 * [ ] [Research Centres](https://www.iiitb.ac.in/)
 * [ ] [AI and Data Science Research](https://www.iiitb.ac.in/)
 
 ### Other Premier Institutions
 
 #### TIFR (Tata Institute of Fundamental Research)
+
 * [ ] [TIFR Mumbai](https://www.tifr.res.in/)
 * [ ] [TIFR Bangalore](https://www.tifrbng.res.in/)
 * [ ] [TIFR Hyderabad](https://www.tifh.res.in/)
 
 #### Bhabha Atomic Research Centre (BARC)
+
 * [ ] [BARC Facilities](https://www.barc.gov.in/)
 
 #### Indian Institute of Astrophysics (IIA)
+
 * [ ] [IIA Bangalore](https://www.iiap.res.in/)
 
 #### Physical Research Laboratory (PRL)
+
 * [ ] [PRL Ahmedabad](https://www.prl.res.in/)
 
 #### Indian Institute of Geomagnetism (IIG)
+
 * [ ] [IIG Mumbai](https://www.iigm.res.in/)
 
 #### National Centre for Biological Sciences (NCBS)
+
 * [ ] [NCBS Bangalore](https://www.ncbs.ac.in/)
 
 #### Centre for Cellular and Molecular Biology (CCMB)
+
 * [ ] [CCMB Hyderabad](https://www.ccmb.res.in/)
 
 #### Indian Institute of Toxicology Research (IITR)
+
 * [ ] [IITR Lucknow](https://www.iitr.res.in/)
 
 ---

@@ -1,5 +1,6 @@
 ---
 title: 'Notebook : Chanakya(Kautilya) Niti Sutra'
+
 date: 2026-01-30
 permalink: /posts/2026/01/post-1/Notebook-Chanakya-Kautilya-Niti-Sutra
 tags:
@@ -8,7 +9,6 @@ tags:
   - Research
   - Intelligence
 ---
-
 > *"Establish yourself in Self-Control, plan with Secrecy, act with Courage, and let Truth be your final destination."* --- Ajeet Kumar
 
 The chanakya niti sutras are the masterclass in strategic thinking, ethics and practical wisdom.
@@ -159,8 +159,8 @@ The perfect conclusion to this journey lies in the harmony of these three final 
 
 ---
 
-1. The Primacy of Character over Power \
-   **सर्वस्य भूषणं विनयः ॥ (6.59)** \
+1. The Primacy of Character over Power 
+   **सर्वस्य भूषणं विनयः ॥ (6.59)** 
    *"Humility and discipline are the ultimate ornaments of a human being."*
 
 Chanakya reminds us that while we may seek wealth and success, our true "jewelry"—what people actually respect and remember—is our **Vinaya** (the way we conduct ourselves).
@@ -168,8 +168,8 @@ Power without humility is just tyranny; success without discipline is just luck.
 
 ---
 
-2. The Power of Intellectual Vision  \
-   **विज्ञानदीपेन संसारभयं निवर्त्यति ॥ (8.48)** \
+2. The Power of Intellectual Vision  
+   **विज्ञानदीपेन संसारभयं निवर्त्यति ॥ (8.48)** 
    *"With the lamp of specialized knowledge (Vigyan), one extinguishes the fear of the world."*
 
 The "world" can be a frightening place of uncertainty. Chanakya’s ultimate solution is not to hide, but to **light the lamp of knowledge**.
@@ -177,9 +177,9 @@ When you understand the "why" and "how" of things, fear disappears and is replac
 
 ---
 
-3. The Ultimate Accountability \
-   **आत्मा हि व्यवहारस्य साक्षी ॥ (8.31)** \
-   *"One's own Self is the witness to one's conduct."* 
+3. The Ultimate Accountability 
+   **आत्मा हि व्यवहारस्य साक्षी ॥ (8.31)** 
+   *"One's own Self is the witness to one's conduct."*
 
 In the end, Chanakya moves beyond politics. He tells us that even if the whole world is deceived, your own **Soul (Atma)** knows your truth. Success is only real when it is gained through paths that your own conscience can witness with pride.
 

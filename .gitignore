@@ -1,7 +1,7 @@
 # Ignore the contents of the _site directory and other cache directories
 _site/
 .sass-cache/
-
+.DS_Store
 # Ignore the directory for local files during development
 _posts/Magic-Square.md
 _posts/research-labs.md
@@ -10,6 +10,7 @@ _posts/lsm/
 _arough/
 _posts/eye-window
 session-ses_f768.md
+portproxy/
 # Ignore the directory for local files during development
 local/
 
