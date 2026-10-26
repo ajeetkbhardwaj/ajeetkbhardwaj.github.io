@@ -85,9 +85,10 @@ layout: default
   }
 </style>
 
-<div class="viz-background">
+<div class="viz-background" style="border: 5px solid red !important; z-index: 9999 !important;">
   <iframe src="{{ '/assets/viz/all_methods_compare.html' | relative_url }}" scrolling="no"></iframe>
 </div>
+<div style="position: fixed; top: 0; left: 0; z-index: 10000; background: yellow; color: black; padding: 10px;">DIAGNOSTIC: HOME.HTML IS LOADING</div>
 
 <div class="initial-content">
   <div class="home-hero">
