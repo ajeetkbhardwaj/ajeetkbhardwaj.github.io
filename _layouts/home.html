@@ -3,6 +3,8 @@ layout: default
 ---
 <style>
   .home-hero {
+    position: relative;
+    z-index: 2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,6 +13,28 @@ layout: default
     max-width: 800px;
     margin: 0 auto;
     min-height: 70vh;
+    pointer-events: none;
+  }
+
+  .home-hero * {
+    pointer-events: auto;
+  }
+
+  .viz-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+    overflow: hidden;
+  }
+
+  .viz-background iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
   }
 
   @media (max-width: 600px) {
@@ -59,6 +83,10 @@ layout: default
     margin-bottom: 1.5rem;
   }
 </style>
+
+<div class="viz-background">
+  <iframe src="{{ '/assets/viz/all_methods_compare.html' | relative_url }}" scrolling="no"></iframe>
+</div>
 
 <div class="initial-content">
   <div class="home-hero">
