@@ -93,13 +93,14 @@ layout: default
     <div class="home-hero__portrait">
       <img src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" alt="{{ site.author.name }}" class="avatar">
     </div>
-    <div class="home-hero__intro">
-      <h1>Hi, I'm {{ site.author.name | split: " " | first }}.</h1>
-      <p class="lead">
-        Applied Mathematician<br>
-        working on mathematical modelling,<br>
-        computation, and education.
-      </p>
-    </div>
+<div class="home-hero__intro">
+  <h1>Hi, I'm {{ site.author.name | split: " " | first }}.</h1>
+  <p class="lead">
+    Applied Mathematician<br>
+    working on mathematical modelling,<br>
+    computation, and education.
+  </p>
+  <a href="{{ '/about' | relative_url }}" class="btn btn-primary">About Me</a>
+</div>
   </div>
 </div>
