@@ -9,9 +9,6 @@ categories:
   - Sparse Autoencoders
   - Neural Networks
 ---
- 
- 
-
 > **Part 2 of 3.** Part 1 established the geometry: in $\mathbb R^d$ there is exponentially much room for directions, and sparsity is what makes a compressed code recoverable. But Part 1 assumed a *known*, *random* dictionary. In a real model we observe $x\in\mathbb R^d$ and must learn the dictionary *and* the code simultaneously. This part is about that reversal, the tool it produces (the sparse autoencoder), and the mathematical picture that tool reveals (superposition).
 
 ---
@@ -780,6 +777,3 @@ The failure modes, concretely:
 
 <div class="post-license" markdown="1">
 [![Creative Commons BY 4.0](/images/ccby.svg)](https://creativecommons.org/licenses/by/4.0/)
-
-*© 2026 Ajeet Kumar. This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Credit must be given to the creator.*
-</div>
