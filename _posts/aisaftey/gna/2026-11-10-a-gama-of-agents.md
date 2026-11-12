@@ -304,3 +304,45 @@ In multi-agent systems, the most consequential choices are often not made by any
 
 <div class="post-license" markdown="1">
 [![Creative Commons BY 4.0](/images/ccby.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+## References
+
+1. Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). *Attention is all you need*. In Advances in Neural Information Processing Systems 30 (NeurIPS 2017). https://arxiv.org/abs/1706.03762
+
+2. Nash, J. (1950). Equilibrium points in n-person games. *Proceedings of the National Academy of Sciences*, 36(1), 48–49. https://doi.org/10.1073/pnas.36.1.48
+
+3. Nash, J. (1951). Non-cooperative games. *Annals of Mathematics*, 54(2), 286–295. https://doi.org/10.2307/1969529
+
+4. Rapoport, A., & Chammah, A. M. (1965). *Prisoner’s dilemma: A study in conflict and cooperation*. University of Michigan Press.
+
+5. Kuhn, S. (2019). Prisoner’s dilemma. In E. N. Zalta (Ed.), *The Stanford Encyclopedia of Philosophy*. https://plato.stanford.edu/entries/prisoner-dilemma/
+
+6. Flood, M. M. (1952). *Some experimental games* (Research Memorandum RM-789-1). RAND Corporation.
+
+7. Luce, R. D., & Raiffa, H. (1957). *Games and decisions: Introduction and critical survey*. Wiley.
+
+8. Khadjavi, M., & Lange, A. (2013). Prisoners and their dilemma. *Journal of Economic Behavior & Organization*, 92, 163–175. https://doi.org/10.1016/j.jebo.2013.05.011
+
+9. Andreoni, J., & Miller, J. H. (1993). Rational cooperation in the finitely repeated prisoner’s dilemma: Experimental evidence. *The Economic Journal*, 103(418), 570–585. https://doi.org/10.2307/2234637
+
+10. Cooper, R., DeJong, D. V., Forsythe, R., & Ross, T. W. (1996). Cooperation without reputation: Experimental evidence from prisoner’s dilemma games. *Games and Economic Behavior*, 12(2), 187–218. https://doi.org/10.1006/game.1996.0017
+
+11. Dal Bó, P. (2005). Cooperation under the shadow of the future: Experimental evidence from infinitely repeated games. *American Economic Review*, 95(5), 1591–1604. https://doi.org/10.1257/000282805775014434
+
+12. Dal Bó, P., & Fréchette, G. R. (2011). The evolution of cooperation in infinitely repeated games: Experimental evidence and strategy matching. *American Economic Review*, 101(1), 411–429. https://doi.org/10.1257/aer.101.1.411
+
+13. Mao, A., Dworkin, L., Suri, S., & Watts, D. J. (2017). Resilient cooperators stabilize long-run cooperation in the repeated prisoner’s dilemma. *Nature Communications*, 8, 17300. https://doi.org/10.1038/s41467-017-01888-x
+
+14. Hammond, L., Chan, A., Clifton, J., et al. (2025). *Multi-agent risks from advanced AI* (Cooperative AI Foundation Technical Report No. 1). arXiv:2502.14143. https://doi.org/10.48550/arXiv.2502.14143
+
+15. Wijk, H., Cotra, A., & Greenblatt, R. (2026, August 26). *Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident*. METR. https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/
+
+16. Abraham, R., Kavner, A., & Moon, A. (2025). *A prisoner’s dilemma in the race to artificial general intelligence* (RAND Report RR-A4245-1). RAND Corporation. https://www.rand.org/pubs/research_reports/RRA4245-1.html
+
+17. Lasry, J.-M., & Lions, P.-L. (2007). Mean field games. *Japanese Journal of Mathematics*, 2(1), 229–260. https://doi.org/10.1007/s11537-007-0657-8
+
+18. Huang, M., Malhamé, R. P., & Caines, P. E. (2006). Large population stochastic dynamic games: Closed-loop McKean–Vlasov systems and the Nash certainty equivalence principle. *Communications in Information and Systems*, 6(3), 221–252. https://doi.org/10.4310/CIS.2006.v6.n3.a5
+
+19. Wohlstetter, A. (1958). *The delicate balance of terror* (RAND Paper P-1472). RAND Corporation.
+
+20. Ellsberg, D. (2017). *The doomsday machine: Confessions of a nuclear war planner*. Bloomsbury.
